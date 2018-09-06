@@ -5,6 +5,9 @@
 # JavaScript Avanzado para desarrolladores Front-end
 ### POO con JS, ECMA6, Patrones de diseño, AJAX avanzado, HTML5 avanzado, APIs externas.
 
+![WideImg](http://www.fictizia.com/assets/styles/styleImgs/wideBox/widebox_js_avanzado.png)
+![Fictizia Logo](https://media.licdn.com/media/p/1/000/1ed/254/29475de.png)
+
 ## Clase 1
 
 ### Normas y demás
