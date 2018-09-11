@@ -2,11 +2,11 @@
 ![shieldsIO](https://img.shields.io/github/forks/Fictizia/Curso-JS-Avanzado-para-desarrolladores-Front-end_ed3.svg)
 ![shieldsIO](https://img.shields.io/github/stars/Fictizia/Curso-JS-Avanzado-para-desarrolladores-Front-end_ed3.svg)
 
-![WideImg](http://fictizia.com/img/github/Fictizia-plan-estudios-github.jpg)
-
-# [Curso de JavaScript Avanzado para desarrolladores Front-end](https://fictizia.com/formacion/curso-javascript-avanzado)
+# JavaScript Avanzado para desarrolladores Front-end
 ### POO con JS, ECMA6, Patrones de diseño, AJAX avanzado, HTML5 avanzado, APIs externas.
 
+![WideImg](http://www.fictizia.com/assets/styles/styleImgs/wideBox/widebox_js_avanzado.png)
+![Fictizia Logo](https://media.licdn.com/media/p/1/000/1ed/254/29475de.png)
 
 El Curso de JavaScript Avanzado para desarrolladores web está pensado para que sus alumnos amplíen sus habilidades con el desarrollo con JavaScript nativo y adquieran las capacidades necesarias para crear profesionalmente sitios web dinámicos a medida de las necesidades de cada proyecto.
 
@@ -42,13 +42,14 @@ Sobre el Curso
 =================
 * Horario: Martes y Jueves de 19h a 22h
 * Fechas: 07/09/2018 - 29/11/2018
-* Festivos: J 01/11/18 y J 06/12/18
+* Festivos: J 01/11/18 y J06/12/18
 
 Teoría y Recursos
 =================
 Teoría | Recursos | Descripción
 ------------ | ------------- | -------------
 [Clase 1](teoria/clase1.md)	| [Clase 1](recursos/clase1.md) | Intro al Curso, Git/Github/Gitlab/Bitbucket 
+[Clase 2](teoria/clase2.md) | [Clase 2](recursos/clase2.md) | Chrome DevTools + Reintro a Javascript I
 
 
 Temario
