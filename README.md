@@ -51,6 +51,7 @@ Teoría | Recursos | Descripción
 [Clase 1](teoria/clase1.md)	| [Clase 1](recursos/clase1.md) | Intro al Curso, Git/Github/Gitlab/Bitbucket 
 [Clase 2](teoria/clase2.md) | [Clase 2](recursos/clase2.md) | Chrome DevTools + Reintro a Javascript I
 [Clase 3](teoria/clase3.md) | [Clase 3](recursos/clase3.md) | Reintro a Javascript II
+[Clase 4](teoria/clase4.md) | [Clase 4](recursos/clase4.md) | ECMA6, es7, es8, es9 I
 
 Temario
 =================
