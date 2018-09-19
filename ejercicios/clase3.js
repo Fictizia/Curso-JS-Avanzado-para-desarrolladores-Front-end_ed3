@@ -1,5 +1,6 @@
 /**
  * Ejercicio 1
+ * Imprimimos por consola el estado de cada tren en movimiento de manera individualizada... usando *while*.
  *
  */
 let trenes = [true, true, true, false, false, false, false, false];
@@ -16,7 +17,7 @@ while (i < max) {
 
 /**
  * Ejercicio 2
- *
+ * Imprimimos por consola el estado de cada tren en movimiento de manera individualizada...  usando *Do... While*
  */
 console.info("ejercicio 2");
 i = 0;
@@ -27,6 +28,7 @@ do {
 
 /**
  * Ejercicio 3
+ * Imprimimos por consola el estado de cada tren en movimiento de manera individualizada...  usando *for*
  */
 console.info("ejercicio 3");
 for (let i = 0; i < trenes.length; i++) {
@@ -36,6 +38,9 @@ for (let i = 0; i < trenes.length; i++) {
 
 /**
  * Ejercicio 4
+ * Servicio nocturno en el tren 10.
+ * Nota: Frente al ejercicio anterior, en este caso queremos que siempre que hablemos del 
+ * tren 10 se especifique que es nocturno. Independientemente de si esta parado o funcionando.
  */
 trenes = trenes.map(tren => tren = { funcionamiento: tren, nocturno: false });
 trenes[9] = { funcionamiento: true, nocturno: true };
@@ -44,18 +49,25 @@ console.log(trenes);
 
 /**
  * Ejercicio 5
+ * ¿Y si todos los trenes están en las vías funcionando o por el contrario si ninguno de los 
+ * trenes esta funcionando?
  */
 trenes.forEach(tren => tren.funcionamiento = true)
 console.log(trenes);
 
 /**
  * Ejercicio 6
+ * El servicio nocturno se queda un poco corto y necesitamos añadir un nuevo tren de refuerzo. 
+ * El 12 será destinado a cubrir esta necesidad, exactamente igual que el 10 anteriormente.
  */
 trenes[11] = { funcionamiento: true, nocturno: true };
 console.log(trenes);
 
 /**
  * Ejercicio 7
+ * El departamento de Marketing ha decidido lanzar un nuevo servicio los sábados.
+ * El "tren fiestero" será un tren adaptado a un público más intrépido y funcionará solo en los sábados.
+ * Este tren será el número 13.
  */
 const dias = ["l","m","x","j","v","s","d"]
 trenes = trenes.map(tren => tren = {...tren, dias});
