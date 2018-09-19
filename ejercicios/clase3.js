@@ -129,7 +129,17 @@ pasajeros.forEach((pasajero,i) => console.log(`El pasajero ${pasajero.name} tien
  * Nota: Al borrar en el ejercicio anterior las posiciones de los pasajeros cambiaban y los 
  * billetes quedaban desactualizados.*
  */
-function bookTicket(name, seat){
+// const booked = pasajeros.map(({name},i) => ({name,seat:i+1})) /* Shortest method */
+const booked = pasajeros.map((passenger,i) => { /* readable way */
+  return {name:passenger.name, seat:i+1}
+});
+console.log(booked);
 
-}
- 
+
+ /**
+ * Ejercicio 10
+ * Una de las vías principales esta en obras. Así que nuestra compañía decidió usar antiguas vías 
+ * para hacer transbordos directos entre las estaciones afectadas.
+ * Nuestra Misión es añadir el tiempo estimado en los billetes para las estaciones afectadas Tetuán,
+ * Moncloa y Hortaleza. Es necesario incluir un texto informativo y el nombre del usuario también en el billete.
+ */
