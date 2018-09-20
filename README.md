@@ -52,6 +52,8 @@ Teoría | Recursos | Descripción
 [Clase 2](teoria/clase2.md) | [Clase 2](recursos/clase2.md) | Chrome DevTools + Reintro a Javascript I
 [Clase 3](teoria/clase3.md) | [Clase 3](recursos/clase3.md) | Reintro a Javascript II
 [Clase 4](teoria/clase4.md) | [Clase 4](recursos/clase4.md) | ECMA6, es7, es8, es9 I
+[Clase 5](teoria/clase5.md) | [Clase 5](recursos/clase5.md) | ECMA6, es7, es8, es9 II
+
 
 Temario
 =================
