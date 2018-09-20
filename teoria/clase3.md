@@ -338,7 +338,18 @@ function estadoDetalle () {
 tren 10 se especifique que es nocturno. Independientemente de si esta parado o funcionando.*
 
 ```javascript
-// Tu solución
+var trenesOperativos = 8;
+var totalTrenes = 15;
+
+function estadoDetalle () {
+	for(var numeroTren = 1; numeroTren <= totalTrenes; numeroTren++) {
+		if(numeroTren === 10){
+		console.info("IMPORTANTE: El tren número 10 es nocturno");
+		} else {
+  		console.log("El tren " + numeroTren + " esta " + (numeroTren <= trenesOperativos ? "funcionando" : "parado"));
+		}	
+	};
+};
 ```
 
 
