@@ -305,7 +305,16 @@ El tren número 8 no esta funcionando
 **2 -** Imprimimos por consola el estado de cada tren en movimiento de manera individualizada...  usando *Do... While*.
 
 ```javascript
-// Tu solución
+var trenesOperativos = 3;
+var totalTrenes = 8;
+
+function estadoDetalle () {
+	var numeroTren = 1;
+	do{
+		console.log("El tren " + numeroTren + " esta " + (numeroTren <= trenesOperativos ? "funcionando" : "parado"));	
+		numeroTren++
+	} while(numeroTren <= totalTrenes) ;
+};
 ```
 
 
