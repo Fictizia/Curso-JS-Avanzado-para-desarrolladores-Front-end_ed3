@@ -356,7 +356,26 @@ function estadoDetalle () {
 **5 - ¡Refactoricemos!** ¿Y si todos los trenes están en las vías funcionando o por el contrario si ninguno de los trenes esta funcionando?.
 
 ```javascript
-// Tu solución
+var trenesOperativos = 8;
+var totalTrenes = 15;
+
+function estadoDetalle () {
+	if (!trenesOperativos > 0){
+	console.log("IMPORTANTE: Ningún tren esta funcionando");
+	return;
+	} else if (trenesOperativos == totalTrenes){
+		console.log("Todos los trenes estan funcionando");
+		return;
+	}
+	
+	for(var numeroTren = 1; numeroTren <= totalTrenes; numeroTren++) {
+		if(numeroTren === 10){
+		console.info("IMPORTANTE: El tren número 10 es nocturno");
+		} else {
+  		console.log("El tren " + numeroTren + " esta " + (numeroTren <= trenesOperativos ? "funcionando" : "parado"));
+		}	
+	};
+};
 ```
 
 **6 -** El servicio nocturno se queda un poco corto y necesitamos añadir un nuevo tren de refuerzo. El 12 será destinado a cubrir esta necesidad, exactamente igual que el 10 anteriormente.
