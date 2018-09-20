@@ -284,7 +284,7 @@ console.log(adder.addThruCall(1)); // También imprime 2 aunque se esperaba 3
 - Sintaxis básica
 ```javascript
 (param1, param2, paramN) => {declaraciones} 
-(param1, param2, paramN) =>expresion
+(param1, param2, paramN) => expresion
 // Equivalente a: () => { return expresion; } 
 
 // Los paréntesis son opcionales cuando sólo dispone de un argumento: singleParam => { statements } 
@@ -373,7 +373,7 @@ var f = ([a, b] = [1, 2], {x: c} = {x: a + b}) => a + b + c; f(); // 6
 	"a total of " + (card.amount * card.unitprice) + " bucks?";
 	*/
 ```
-- Raw:
+- Raw (No se procesan):
 ```javascript
 function trabajandoCrudo(texto) {
 	console.log( texto );		// [ "Hello
@@ -381,7 +381,7 @@ function trabajandoCrudo(texto) {
 	console.log( texto.raw );	// [ "Hello\nWorld" ]
 }
 
-showraw`Hello\nWorld`;
+trabajandoCrudo(`Hello\nWorld`);
 ```
 
 
