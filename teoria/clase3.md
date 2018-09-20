@@ -277,7 +277,16 @@ function testArreglos () {
 **1 -** Imprimimos por consola el estado de cada tren en movimiento de manera individualizada... usando *while*.
 
 ```javascript
-// Tu solución
+var trenesOperativos = 3;
+var totalTrenes = 8;
+
+function estadoDetalle () {
+	var numeroTren = 1;
+	while(numeroTren <= totalTrenes) {
+		console.log("El tren " + numeroTren + " esta " + (numeroTren <= trenesOperativos ? "funcionando" : "parado"));	
+		numeroTren++
+	};
+};
 ```
 
 - Respuesta esperada (consola):
