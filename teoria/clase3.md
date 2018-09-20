@@ -1078,7 +1078,27 @@ function quitarPasajero(nombre, lista) {
 *Nota: Al borrar en el ejercicio anterior las posiciones de los pasajeros cambiaban y los billetes quedaban desactualizados.*
 
 ```javascript
-// Tu solución
+var pasajeros = ["Alicia Gutierrez", "Alfonso Gomez", "Luis Navarro", "Oscar Garcia", "Andres Fernandez", "Lucia Mellado"];
+
+function agregarPasajero(nombre, lista) {
+	var vacante = lista.indexOf(undefined);
+	vacante === -1 ? lista.push(nombre) : lista[vacante] = nombre;
+};
+
+function quitarPasajero(nombre, lista) {
+	if (lista.length == 0) {
+		console.log("La lista \""+lista+"\" esta vacía.");
+	} else {
+		var posicion = lista.indexOf(nombre);
+		
+		if(posicion !== -1){
+			console.log("El pasajero \""+lista[posicion]+"\" será eliminado!")
+			lista[posicion] = undefined;
+		} else {
+			console.log("El pasajero \""+nombre+"\" no encontrado!")
+		}
+	};
+};
 ```
 
 
