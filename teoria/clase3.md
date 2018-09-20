@@ -1051,7 +1051,26 @@ function listaPasajeros(){
 *Nota: Pensemos que a la larga pueden existir más listas.*
 
 ```javascript
-// Tu solución
+var pasajeros = ["Alicia Gutierrez", "Alfonso Gomez", "Luis Navarro", "Oscar Garcia", "Andres Fernandez", "Lucia Mellado"];
+
+function agregarPasajero(nombre, lista) {
+  lista.push(nombre);
+};
+
+function quitarPasajero(nombre, lista) {
+  if (lista.length == 0) {
+  	console.log("La lista \""+lista+"\" esta vacía.");
+  } else {
+  	var posicion = lista.indexOf(nombre);
+  	
+  	if(posicion !== -1){
+  		console.log("El pasajero \""+lista[posicion]+"\" será eliminado!")
+  		lista.splice(posicion, 1);
+  	} else {
+  		console.log("El pasajero \""+nombre+"\" no encontrado!")
+  	}
+  };
+};
 ```
 
 
