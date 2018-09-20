@@ -1027,7 +1027,13 @@ saludar("Amigo/a")();
 *Nota: El primer asiento del tren es el 1 y no el 0.*
 
 ```javascript
-// Tu solución
+var pasajeros = ["Alicia Gutierrez", "Alfonso Gomez", "Luis Navarro", "Oscar Garcia", "Andres Fernandez", "Lucia Mellado"];
+
+function listaPasajeros(){
+	pasajeros.forEach(function(pasajero, posicion){
+        console.log("El pasajero "+pasajero+" tiene reservado el asiento "+(posicion+1));
+	})
+};
 ```
 
 - Respuesta esperada (consola):
