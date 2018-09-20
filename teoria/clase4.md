@@ -1292,3 +1292,15 @@ console.log("e^{π} = " + exp(pi));
 ### Ejercicios
 
 **1 -** ¿Que tal unas [Katas de ES6](http://es6katas.org/)? 
+Recomendación:
+- Promise
+- Array
+- Destructuring
+- Map
+- Set
+- Template String
+- Arrow Function
+- Block scope
+- Rest Operator
+- Spread operator
+- Default parameters
