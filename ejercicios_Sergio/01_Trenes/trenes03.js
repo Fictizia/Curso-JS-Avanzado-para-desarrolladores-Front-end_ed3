@@ -11,20 +11,11 @@
 * El tren número 8 no esta funcionando
 **/
   
-/** 
-* Creo el objeto trenes con booleanos: true si funciona, false si no funciona.
-**/
-var train = [true, true, true, false, false, false, false, false];
+var trenesOperativos = 3;
+var totalTrenes = 8;
 
-/** 
-* Recorro el array con Do While
-**/
-
-for (i=0; i<train.length; i++) {
-var trainNumber = i + 1;
-  if (train[i]) {
-        console.log("El tren número " + trainNumber + " está funcionando.");
-    } else {
-        console.log("El tren número " + trainNumber + " no está funcionando.");
-    }
-}
+function estadoDetalle () {
+    for (numeroTren = 1; numeroTren <= totalTrenes; numeroTren++) {
+        console.log("El tren " + numeroTren + " esta " + (numeroTren <= trenesOperativos ? "funcionando" : "parado"));
+    }	
+};
