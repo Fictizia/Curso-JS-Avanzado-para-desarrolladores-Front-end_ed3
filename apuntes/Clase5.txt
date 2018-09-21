@@ -1,0 +1,34 @@
+Para katas de ES6
+
+Promise
+array
+destructuring
+map
+set
+template string
+arrow function
+Block scope
+rest operator
+spread operator
+default parameters
+
+
+
+Libro:
+ Exploring ES6
+ You dont know JS: ES6
+
+ES2017 
+Lo más importante es el fetch y funciones asíncronas: async await
+
+3 tipos de funciones:
+funciones normales
+funciones generadoras asterisco
+funciones asíncronas
+
+
+Pensar en el proyecto final
+
+Ejercicio
+Sacar API de la NASA
+funcion recursiva asincrona try catch para ir mirando soles hacia atras hasta dar con una que tenga soles

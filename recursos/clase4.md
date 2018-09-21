@@ -24,7 +24,12 @@
 - **Recursos**
 	- [ES6 para humanos](https://github.com/metagrover/ES6-for-humans/tree/spanish-version)
 	- [Pensar asíncronamente en un mundo síncrono](https://medium.com/@ulisesGascon/pensar-as%C3%ADncronamente-en-un-mundo-s%C3%ADncrono-8e25cfcafd83)
+    
+    MIRAR ESTO:
 	- [ECMAScript 6 Features - jsfeatures.in](https://jsfeatures.in/ES6)
+    
+    
+    
 	- [ECMAScript 6 Features by Luke Hoban](https://github.com/lukehoban/es6features#readme)
 	- [Learn ES2015 - A detailed overview of ECMAScript 6 features by Babel team](https://babeljs.io/docs/learn-es2015/)
 	- [ECMAScript 6 Cheatsheet by Erik Moeller](http://help.wtf/es6)
