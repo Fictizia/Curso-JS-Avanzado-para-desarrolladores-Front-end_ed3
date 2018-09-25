@@ -28,8 +28,14 @@
 - [Programación orientada a objetos (POO/OOP)](https://es.wikipedia.org/wiki/Programaci%C3%B3n_orientada_a_objetos)
 	- Extendida en C++, C#, Java, Python... 
 	- Está basada en el imperativo, pero encapsula elementos denominados objetos que incluyen tanto variables como funciones
+
+    En JS se hace a través de prototipado, no por clases. 
+
 - [Programación dirigida por eventos](https://es.wikipedia.org/wiki/Programaci%C3%B3n_dirigida_por_eventos)
 	- Tanto la estructura como la ejecución de los programas van determinados por los sucesos que ocurran en el sistema, definidos por el usuario o que ellos mismos provoquen.
+
+La usaremos en websokets y eventos en tiempo real.
+
 - [Programación funcional](https://es.wikipedia.org/wiki/Programaci%C3%B3n_funcional)
 	- Basada en la definición los predicados
 	- Es de corte más matemático
@@ -39,6 +45,8 @@
 	- Es muy común usar la librería Rx de Microsoft (Reactive Extensions)
 - [Programación multiparadigma](https://es.wikipedia.org/wiki/Programaci%C3%B3n_multiparadigma)
 	- Es el uso de dos o más paradigmas dentro de un programa.
+
+    En JS se usan varios paradgmas normalmente POO, funcional,...
 
 **Otros paradigmas**
 - [Programación declarativa](https://es.wikipedia.org/wiki/Programaci%C3%B3n_declarativa)
@@ -82,8 +90,14 @@
 - [Introducción a la POO en Javascript moderno: las nuevas clases en ES6](http://www.etnassoft.com/2016/12/02/introduccion-a-la-poo-en-javascript-moderno-las-nuevas-clases-en-es6/)
 - [MDN | Introducción a JavaScript orientado a objetos](https://developer.mozilla.org/es/docs/Web/JavaScript/Introducci%C3%B3n_a_JavaScript_orientado_a_objetos)
 - [MDN | Object-oriented JavaScript for beginners](https://developer.mozilla.org/es/docs/Learn/JavaScript/Objects/Object-oriented_JS)
-- [Goodbye, Object Oriented Programming](https://medium.com/@cscalfani/goodbye-object-oriented-programming-a59cda4c0e53)
-- [Why Object Oriented Programming is Awesome](https://medium.com/@konradmusial/why-object-oriented-programming-is-awesome-92e8578f450a)
+- [Goodbye, Object Oriented Programming]
+    INTERESANTE
+(https://medium.com/@cscalfani/goodbye-object-oriented-programming-a59cda4c0e53)
+- [Why Object Oriented Programming is Awesome]
+    INTERESANTE
+
+
+(https://medium.com/@konradmusial/why-object-oriented-programming-is-awesome-92e8578f450a)
 - [The Little Guide for OOP in JS](https://hackernoon.com/the-little-guide-for-poo-in-js-3cfff83ad095)
 - [Usando Clases en JavaScript](https://medium.com/@jmz12/usando-clases-en-javascript-e07f0e25c67d)
 
@@ -299,6 +313,9 @@ var otroCoche = new cocheEmpresa ("Seat", "Leon");
 
 
 **Reutilizando el contexto común**
+
+Lo que se define como var o function no se puede acceder desde fuera, no te lo modifican.
+
 ```javascript
 // Creamos un ID
 var contador = 0;
@@ -347,6 +364,8 @@ console.info("Total de coches de empresa hasta el momento "+contador);
 
 
 ### POO: Trabajando con prototipos
+
+Se crea un constructor desde un objeto concreto que ya se ha creado.
 
 **[Object.create()](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Object/create)**
 ```javascript
