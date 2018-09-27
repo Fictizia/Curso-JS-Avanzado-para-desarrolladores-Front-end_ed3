@@ -277,7 +277,16 @@ function testArreglos () {
 **1 -** Imprimimos por consola el estado de cada tren en movimiento de manera individualizada... usando *while*.
 
 ```javascript
-// Tu solución
+var trenesOperativos = 3;
+var totalTrenes = 8;
+
+function estadoDetalle () {
+	var numeroTren = 1;
+	while(numeroTren <= totalTrenes) {
+		console.log("El tren " + numeroTren + " esta " + (numeroTren <= trenesOperativos ? "funcionando" : "parado"));	
+		numeroTren++
+	};
+};
 ```
 
 - Respuesta esperada (consola):
@@ -296,14 +305,30 @@ El tren número 8 no esta funcionando
 **2 -** Imprimimos por consola el estado de cada tren en movimiento de manera individualizada...  usando *Do... While*.
 
 ```javascript
-// Tu solución
+var trenesOperativos = 3;
+var totalTrenes = 8;
+
+function estadoDetalle () {
+	var numeroTren = 1;
+	do{
+		console.log("El tren " + numeroTren + " esta " + (numeroTren <= trenesOperativos ? "funcionando" : "parado"));	
+		numeroTren++
+	} while(numeroTren <= totalTrenes) ;
+};
 ```
 
 
 **3 -** Imprimimos por consola el estado de cada tren en movimiento de manera individualizada...  usando *for*.
 
 ```javascript
-// Tu solución
+var trenesOperativos = 3;
+var totalTrenes = 8;
+
+function estadoDetalle () {
+	for(var numeroTren = 1; numeroTren <= totalTrenes; numeroTren++) {
+		console.log("El tren " + numeroTren + " esta " + (numeroTren <= trenesOperativos ? "funcionando" : "parado"));	
+	};
+};
 ```
 
 
@@ -313,20 +338,69 @@ El tren número 8 no esta funcionando
 tren 10 se especifique que es nocturno. Independientemente de si esta parado o funcionando.*
 
 ```javascript
-// Tu solución
+var trenesOperativos = 8;
+var totalTrenes = 15;
+
+function estadoDetalle () {
+	for(var numeroTren = 1; numeroTren <= totalTrenes; numeroTren++) {
+		if(numeroTren === 10){
+		console.info("IMPORTANTE: El tren número 10 es nocturno");
+		} else {
+  		console.log("El tren " + numeroTren + " esta " + (numeroTren <= trenesOperativos ? "funcionando" : "parado"));
+		}	
+	};
+};
 ```
 
 
 **5 - ¡Refactoricemos!** ¿Y si todos los trenes están en las vías funcionando o por el contrario si ninguno de los trenes esta funcionando?.
 
 ```javascript
-// Tu solución
+var trenesOperativos = 8;
+var totalTrenes = 15;
+
+function estadoDetalle () {
+	if (!trenesOperativos > 0){
+	console.log("IMPORTANTE: Ningún tren esta funcionando");
+	return;
+	} else if (trenesOperativos == totalTrenes){
+		console.log("Todos los trenes estan funcionando");
+		return;
+	}
+	
+	for(var numeroTren = 1; numeroTren <= totalTrenes; numeroTren++) {
+		if(numeroTren === 10){
+		console.info("IMPORTANTE: El tren número 10 es nocturno");
+		} else {
+  		console.log("El tren " + numeroTren + " esta " + (numeroTren <= trenesOperativos ? "funcionando" : "parado"));
+		}	
+	};
+};
 ```
 
 **6 -** El servicio nocturno se queda un poco corto y necesitamos añadir un nuevo tren de refuerzo. El 12 será destinado a cubrir esta necesidad, exactamente igual que el 10 anteriormente.
 
 ```javascript
-// Tu solución
+var trenesOperativos = 8;
+var totalTrenes = 15;
+
+function estadoDetalle () {
+	if (!trenesOperativos > 0){
+	console.log("IMPORTANTE: Ningún tren esta funcionando");
+	return;
+	} else if (trenesOperativos == totalTrenes){
+		console.log("Todos los trenes estan funcionando");
+		return;
+	}
+	
+	for(var numeroTren = 1; numeroTren <= totalTrenes; numeroTren++) {
+		if(numeroTren === 10 || numeroTren === 12){
+		console.info("IMPORTANTE: El tren número " + numeroTren + " es nocturno");
+		} else {
+  		console.log("El tren " + numeroTren + " esta " + (numeroTren <= trenesOperativos ? "funcionando" : "parado"));
+		}	
+	};
+};
 ```
 
 
@@ -337,7 +411,29 @@ tren 10 se especifique que es nocturno. Independientemente de si esta parado o f
 *NOTA: EL TREN 13 SOLO FUNCIONA LOS SÁBADOS. Es necesario incluir el día de la semana en tu código*
 
 ```javascript
-// Tu solución
+var trenesOperativos = 8;
+var totalTrenes = 15;
+var diaSemana = "Sábado";
+
+function estadoDetalle () {
+	if (!trenesOperativos > 0){
+	console.log("IMPORTANTE: Ningún tren esta funcionando");
+	return;
+	} else if (trenesOperativos == totalTrenes){
+		console.log("Todos los trenes estan funcionando");
+		return;
+	}
+	
+	for(var numeroTren = 1; numeroTren <= totalTrenes; numeroTren++) {
+		if(numeroTren === 10 || numeroTren === 12){
+		console.info("IMPORTANTE: El tren número " + numeroTren + " es nocturno");
+		} else if(numeroTren === 13){
+		console.log("El tren fiestero (12+1) " + (diaSemana === "Sábado" ? "esta funcionando" : "funcionará el sábado"));
+		} else {
+  		console.log("El tren " + numeroTren + " esta " + (numeroTren <= trenesOperativos ? "funcionando" : "parado"));
+		}	
+	};
+};
 ```
 
 
@@ -931,7 +1027,13 @@ saludar("Amigo/a")();
 *Nota: El primer asiento del tren es el 1 y no el 0.*
 
 ```javascript
-// Tu solución
+var pasajeros = ["Alicia Gutierrez", "Alfonso Gomez", "Luis Navarro", "Oscar Garcia", "Andres Fernandez", "Lucia Mellado"];
+
+function listaPasajeros(){
+	pasajeros.forEach(function(pasajero, posicion){
+        console.log("El pasajero "+pasajero+" tiene reservado el asiento "+(posicion+1));
+	})
+};
 ```
 
 - Respuesta esperada (consola):
@@ -949,7 +1051,26 @@ saludar("Amigo/a")();
 *Nota: Pensemos que a la larga pueden existir más listas.*
 
 ```javascript
-// Tu solución
+var pasajeros = ["Alicia Gutierrez", "Alfonso Gomez", "Luis Navarro", "Oscar Garcia", "Andres Fernandez", "Lucia Mellado"];
+
+function agregarPasajero(nombre, lista) {
+  lista.push(nombre);
+};
+
+function quitarPasajero(nombre, lista) {
+  if (lista.length == 0) {
+  	console.log("La lista \""+lista+"\" esta vacía.");
+  } else {
+  	var posicion = lista.indexOf(nombre);
+  	
+  	if(posicion !== -1){
+  		console.log("El pasajero \""+lista[posicion]+"\" será eliminado!")
+  		lista.splice(posicion, 1);
+  	} else {
+  		console.log("El pasajero \""+nombre+"\" no encontrado!")
+  	}
+  };
+};
 ```
 
 
@@ -957,7 +1078,27 @@ saludar("Amigo/a")();
 *Nota: Al borrar en el ejercicio anterior las posiciones de los pasajeros cambiaban y los billetes quedaban desactualizados.*
 
 ```javascript
-// Tu solución
+var pasajeros = ["Alicia Gutierrez", "Alfonso Gomez", "Luis Navarro", "Oscar Garcia", "Andres Fernandez", "Lucia Mellado"];
+
+function agregarPasajero(nombre, lista) {
+	var vacante = lista.indexOf(undefined);
+	vacante === -1 ? lista.push(nombre) : lista[vacante] = nombre;
+};
+
+function quitarPasajero(nombre, lista) {
+	if (lista.length == 0) {
+		console.log("La lista \""+lista+"\" esta vacía.");
+	} else {
+		var posicion = lista.indexOf(nombre);
+		
+		if(posicion !== -1){
+			console.log("El pasajero \""+lista[posicion]+"\" será eliminado!")
+			lista[posicion] = undefined;
+		} else {
+			console.log("El pasajero \""+nombre+"\" no encontrado!")
+		}
+	};
+};
 ```
 
 
@@ -974,5 +1115,19 @@ Info:
    	- Hortaleza (21)
 
 ```javascript
-// Tu solución
+var nuevasRutas = [ ["Tetuán", 12], ["Moncloa", 19], ["Hortaleza", 21] ];
+
+function constructorDeTickets (estacion, tiempo) {
+	return function (nombre) {
+		console.log("Sr/a. "+nombre+".\n Muchas gracias por adquirir este ticket gratuito en el "+estacion+" express.\n El tiempo estimado de llegada es de "+tiempo+" minutos.\n Estamos trabajando en la mejora de nuestra vía principal, disculpe las molestias!");
+	};
+}
+
+var tetuanExpress = constructorDeTickets ("Tetuán", 12);
+var moncloaExpress = constructorDeTickets (nuevasRutas[1][0], nuevasRutas[1][1]);
+var hortalezaExpress = constructorDeTickets (nuevasRutas[2][0], nuevasRutas[2][1]);
+
+tetuanExpress ("Pepe");
+moncloaExpress ("Luis");
+hortalezaExpress ("Hector");
 ```
