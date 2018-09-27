@@ -87,8 +87,14 @@ function informacionPantalla(){
 	}
 ```
 
+Vale para hacer routing, ejemplo Navigo js en github.
+
+
 **Métodos:**
 - .assign() *Carga una página nueva*
+
+Se borra el historial en esa pestaña
+
 ```javascript
 document.location.assign('http://fictizia.com/formacion/curso_javascript');
 ```
@@ -156,6 +162,8 @@ article[data-columns='4'] {
 
 - [An Introduction to Browser Rendering](https://www.youtube.com/watch?v=n1cKlKM3jYI)
 - [Ryan Seddon: So how does the browser actually render a website | JSConf EU 2015](https://www.youtube.com/watch?v=SmE4OwHztCc)
+
+INTERESANTE:
 - [Kruno: How browsers work | JSUnconf 2017](https://www.youtube.com/watch?v=0IsQqJ7pwhw)
 
 ### DOM
@@ -164,6 +172,7 @@ article[data-columns='4'] {
 
 
 - [DOM - Document Object Model](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
+IMPORTANTE:
 - [Element](https://developer.mozilla.org/en-US/docs/Web/API/Element)
 - [Node](https://developer.mozilla.org/en-US/docs/Web/API/Node)
 - [NodeList](https://developer.mozilla.org/en-US/docs/Web/API/NodeList)
@@ -199,6 +208,8 @@ article[data-columns='4'] {
 
 
 ### DOM Selectores: Acceso a los elementos
+
+Mejor usar query selector, ver más abajo.
 
 - getElementById():
 ```javascript
@@ -289,6 +300,7 @@ var nodesArray = [].slice.call(document.querySelectorAll("div"));
 
 ### DOM: Recursos
 
+INTERESANTE SELECTORES CSS3
 - [Todos los selectores CSS3](https://www.w3schools.com/cssref/css_selectors.asp)
 - [Introduction to the DOM](https://www.digitalocean.com/community/tutorials/introduction-to-the-dom)
 - [Understanding the DOM Tree and Nodes](https://www.digitalocean.com/community/tutorials/understanding-the-dom-tree-and-nodes)
@@ -296,6 +308,8 @@ var nodesArray = [].slice.call(document.querySelectorAll("div"));
 
 
 ### DOM: Depuración por consola
+
+Para probar a buscar elementos en la consola, no en el js, no es jquery.
 
 - [Más información](https://developers.google.com/web/tools/chrome-devtools/console/expressions)
 ```javascript
@@ -330,6 +344,9 @@ el.style.display = '';
 ```
 
 **Librerías útiles**
+
+Para copiarte clases con animaciones css.
+
 - [animate.css](http://daneden.github.io/animate.css/)
 - [move.js](https://github.com/visionmedia/move.js)
 
