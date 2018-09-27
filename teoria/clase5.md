@@ -366,17 +366,17 @@ currentValue: [{…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {�
 ```javascript
 const token = "YOUR TOKEN HERE";
 
-async function NasaRequest() {
+function NasaRequest() {
   
 }; 
 
-function init() {
+async function init() {
   /*
     - current sun: 2080
     - limit requests: false
     - frecuency: 1000ms
   */
-  const currentValue = NasaRequest(2080, false, 1000);
+  const currentValue = await NasaRequest(2080, false, 1000);
   console.log("currentValue:", currentValue);
 }
 init();
