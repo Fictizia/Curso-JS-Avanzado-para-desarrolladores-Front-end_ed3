@@ -13,15 +13,10 @@ async function NasaRequest(currentSun, limit, frecuency) {
     console.log(`request started for: ${request.url}`);
 
     if(!limit || counter < limit) {
-
-      console.log(`counter: ${counter}, limit: ${limit}`);
-
       if (data.photos.length) {
         console.log(data.photos);
       }
       else {
-        console.log(`Delay for next request: ${frecuency}ms`);
-
         setTimeout(() => {
           NasaRequest(currentSun - 1, limit, frecuency);
         }, frecuency);
@@ -35,8 +30,6 @@ async function NasaRequest(currentSun, limit, frecuency) {
     console.log(`ERROR: ${error.stack}`);
   }
 
-  return (data.photos);
-
 }; 
 
 function init() {
@@ -45,7 +38,7 @@ function init() {
     - limit requests: false
     - frecuency: 1000ms
   */
-  const currentValue = NasaRequest(2178, 3, 1000);
+  const currentValue = NasaRequest(2178, false, 1000);
   console.log("currentValue:", currentValue);
 }
 init();
