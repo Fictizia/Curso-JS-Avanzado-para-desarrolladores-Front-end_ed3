@@ -1,6 +1,7 @@
 const token = "cVXCwImHNJ2mCFkIirKZk4e6AruCMg6ldgw0yOIl";
 var counter = 0;
-
+// TODO meter el counter en la funcion 
+// TODO anadir valores por defecto
 async function NasaRequest(currentSun, limit, frecuency) {
 
   let url = `https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=${currentSun}&api_key=${token}`
