@@ -30,18 +30,16 @@ https://fictizia.com/planes/desarrollo-interactivo-y-web
 
 */
 
-
-// TODO Show all list in one console.log
-
 var mastersList = Array.prototype.slice.call(document.querySelectorAll('.mastersList article'));
 var coursesList = Array.prototype.slice.call(document.querySelectorAll('.coursesList article'));
 var completeList = mastersList.concat(coursesList);
-
-console.log(`# Cursos de Fictizia en el Área de Desarrollo interactivo y Web   `);
+var outputString = `# Cursos de Fictizia en el Área de Desarrollo interactivo y Web\n\n`;
 
 completeList.forEach((item, index) => {
     let title = completeList[index].querySelector('.plansWrapper h1 > a').innerText;
     let link = completeList[index].querySelector('.plansWrapper h1 > a').href;
     let hours = completeList[index].querySelector('strong.mainTag').innerText;
-    console.log(`-[${title} (${hours})](${link})  `);
+    outputString = outputString + (`- [${title} (${hours})](${link})\n`);
 });
+
+console.log(outputString);
