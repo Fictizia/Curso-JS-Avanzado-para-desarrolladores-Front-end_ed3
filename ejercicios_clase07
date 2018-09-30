@@ -1,0 +1,34 @@
+//1 - Saca una lista de los cursos disponibles en Fictizia en el área de Desarrollo interactivo y Web y conviertelo en Markdown.
+
+var listaDivs = document.querySelectorAll('h1');
+
+// Iteración
+for (var i = 0; i < listaDivs.length; ++i) {
+  var elemento = listaDivs[i];
+  console.log("Elemento: ", elemento , elemento.toString());
+}
+
+
+
+//2- Hagamos la web del Metro más divertida.Saca el estado actual de todas las líneas del metro de Madrid por consola.
+
+var lineas = document.querySelectorAll(".circulacion .txt a");
+for(var i=0; i <= lineas.length ; i++) {
+    if(lineas[i] !== undefined) {
+        var resultado = lineas[i].text;
+        console.log(resultado);
+    }
+};
+
+
+//3 Diseña un script que sustituya todas las imágenes de las entradas de Tecnología del Mundo Today por imágenes dummy de gatitos.
+
+var imagenes = document.getElementsByTagName("img");
+
+for(var i=0; i <= imagenes.length ; i++) {
+
+	if(imagenes[i] !== undefined) {
+		imagenes[i].src = "http://placekitten.com/g/200/300";
+    }
+
+};
