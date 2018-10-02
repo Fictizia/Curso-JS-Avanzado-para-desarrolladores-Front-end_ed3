@@ -55,6 +55,7 @@ Teoría | Recursos | Descripción
 [Clase 5](teoria/clase5.md) | [Clase 5](recursos/clase5.md) | ECMA6, es7, es8, es9 II
 [Clase 6](teoria/clase6.md) | [Clase 6](recursos/clase6.md) | Paradigmas: Programación orientada a Objetos
 [Clase 7](teoria/clase7.md) | [Clase 7](recursos/clase7.md) | BOM y DOM
+[Clase 8](teoria/clase8.md) | [Clase 8](recursos/clase8.md) | Gestión de Eventos
 
 Temario
 =================
