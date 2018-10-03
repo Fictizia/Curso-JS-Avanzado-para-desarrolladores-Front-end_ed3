@@ -50,6 +50,8 @@ Solo una función por evento
 	- Necesidad de compatibilizar para IE8
 
 - Propiedades
+
+ISTRUSTED ES MUY INTERESANTE, PARA VER SI EL USER ES EL QUE HA HECHO CLICK, ESO EVITA QUE LA FUNCION DEL EVENTO SE EJECUTE SI NO LO HA ACTIVADO EL USUARIO.
 	```javascript
 		// Callback - Manejador de Eventos
 		function manejadorEventos(elEvento) {
