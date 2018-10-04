@@ -56,6 +56,8 @@ Teoría | Recursos | Descripción
 [Clase 6](teoria/clase6.md) | [Clase 6](recursos/clase6.md) | Paradigmas: Programación orientada a Objetos
 [Clase 7](teoria/clase7.md) | [Clase 7](recursos/clase7.md) | BOM y DOM
 [Clase 8](teoria/clase8.md) | [Clase 8](recursos/clase8.md) | Gestión de Eventos
+[Clase 9](teoria/clase9.md) | [Clase 9](recursos/clase9.md) | Ajax
+
 
 Temario
 =================
