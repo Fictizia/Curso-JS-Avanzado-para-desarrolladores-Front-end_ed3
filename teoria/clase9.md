@@ -25,8 +25,6 @@
 - [Inside a Google data center](https://www.youtube.com/watch?v=XZmGGAbHqa0)
 - [La HISTORIA de INTERNET #DiaDeInternet - Drawing Things](https://www.youtube.com/watch?v=mGG5o6vbKyQ)
 - [How It Works: Internet of Things](https://www.youtube.com/watch?v=QSIPNhOiMoE)
-
-
 ### ¿Cómo funciona el protocolo HTTP?
 
 **[Especificación de HTTP](https://tools.ietf.org/html/rfc2616#section-10)**
@@ -76,6 +74,8 @@
 
 **Recursos**
 - [A gentle Introduction to Ajax](https://codeburst.io/a-gentle-introduction-to-ajax-1e88e3db4e79)
+
+INTERESANTE: 
 - [AJAX Basics Explained By Working At A Fast Food Restaurant](https://blog.codeanalogies.com/2018/01/15/ajax-basics-explained-by-working-at-a-fast-food-restaurant/)
 
 ### AJAX: En la práctica
@@ -102,6 +102,8 @@ peticionJqueryAjax ("<---URL---->");
 ```
 
 **Vanilla JS**
+
+
 
 - *readyState*:
     - 0 es *uninitialized*
@@ -136,8 +138,11 @@ peticionAjax("<---URL---->");
 - `JSON.parse()`: Analiza la cadena y retorna los valores
 - `JSON.stringify()`: Analiza los valores y retorna una cadena 
 
-```javascript
 
+
+saludar y extras no se pasa porque no son strings.
+
+```javascript
 var dato = {
     "nombre": "Ulises",
     "Saludar": function () {console.log("Hola!")},
@@ -220,6 +225,8 @@ var datoRecuperado = JSON.parse(datoJSON); //object -> {"nombre":"Ulises","profe
 
 ### CORS: Control de acceso HTTP
 
+Cabecera para poner cuando entras a los datos de otra web.
+
 ![img](https://brianflove.com/images/posts/2017/cors-in-express-using-typescript-headers.png)
 
 > El Intercambio de Recursos de Origen Cruzado (CORS) es un mecanismo que utiliza encabezados adicionales HTTP para permitir que un user agent obtenga permiso para acceder a recursos seleccionados desde un servidor, en un origen distinto (dominio), al que pertenece. Un agente crea una petición HTTP de origen cruzado cuando solicita un recurso desde un dominio distinto, un protocolo o un puerto diferente al del documento que lo generó. [MDN](https://developer.mozilla.org/es/docs/Web/HTTP/Access_control_CORS)
@@ -276,6 +283,8 @@ app.listen(8080);
 ```
 
 ### JSONP
+
+A EVITAR, porque te pueden meter cualquier cosa en la funcion que te envian.
 
 ![img](http://jsonpwrapper.com/intro.png)
 
@@ -396,6 +405,7 @@ Soporte en cliente (librerías):
 
 
 ### Herramientas esenciales
+MUY BUENA INSOMNIA para hacer peticiones get, post,... a una API.
 - [Insomnia](https://insomnia.rest/)
 - [Jsonviewer](http://jsonviewer.stack.hu/)
 - [Postman](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop)
@@ -472,6 +482,9 @@ xhr.send('sometext');
 
 ### Ajax: FormData, una gran incentivo
 
+Para enviar un formulario con ajax.
+
+
 Ejemplo sencillo
 ```javascript
 var formData = new FormData();
@@ -516,6 +529,9 @@ request.send(formData);
 **Usando eventos y más...**
 ```javascript
 var request = new XMLHttpRequest();
+
+
+MUY INTERESANTE PARA METER EL PORCENTAJE DE CARGA DE UN FICHERO CON AJAX.
 
 // Seleccionamos un fichero para subir
 data.append('file', document.querySelector('#upload-file').files[0]);
@@ -579,6 +595,7 @@ xhr.onload = function() {
 xhr.send();
 ```
 
+IMPORTANTE:
 **Normas básicas**
 - Usar `innerText` y no `innerHtml`
 - Nunca jamas usar `eval`

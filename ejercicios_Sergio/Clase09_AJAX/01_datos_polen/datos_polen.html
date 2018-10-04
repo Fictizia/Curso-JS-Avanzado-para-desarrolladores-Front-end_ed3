@@ -1,0 +1,56 @@
+<HTML>
+    <HEAD>
+        <SCRIPT>
+            (function(){
+                var patata;
+                function peticionAjax(url) {
+                    var xmlHttp = new XMLHttpRequest();
+                    
+
+                    xmlHttp.onreadystatechange = function() {
+
+                        if (xmlHttp.readyState === 4 && xmlHttp.status === 200) {
+                            console.info(JSON.parse(xmlHttp.responseText));
+                            patata = JSON.parse(xmlHttp.responseText);
+
+                            patata.forEach((item, index) => {
+                                let name = patata[index].name;
+                                
+                                console.log(name);
+                            });
+
+
+                        } else if (xmlHttp.readyState === 4 && xmlHttp.status === 404) {
+                            console.error("ERROR! 404");
+                            console.info(JSON.parse(xmlHttp.responseText));
+                        }
+                    };
+                    xmlHttp.open("GET", url, true);
+                    xmlHttp.send();
+
+                    
+                    
+
+                }
+                
+                peticionAjax ("http://airemad.com/api/v1/pollen");
+            })();
+        </SCRIPT>
+    </HEAD>
+    <BODY>
+
+
+        <h1>Datos del polen en Madrid</h1>
+            <ul>
+                <li id="ID">
+                    <h2>Barrio: NAME</h2>
+                    <ul>
+                        <li>mediciones[0].fecha - mediciones[0].resumen</li>
+                    </ul>
+                </li>
+                <li></li>
+            </ul>
+
+
+    </BODY>
+</HTML>
