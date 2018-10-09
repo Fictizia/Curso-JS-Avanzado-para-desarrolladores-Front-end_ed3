@@ -57,6 +57,8 @@ Teoría | Recursos | Descripción
 [Clase 7](teoria/clase7.md) | [Clase 7](recursos/clase7.md) | BOM y DOM
 [Clase 8](teoria/clase8.md) | [Clase 8](recursos/clase8.md) | Gestión de Eventos
 [Clase 9](teoria/clase9.md) | [Clase 9](recursos/clase9.md) | Ajax
+[Clase 10](teoria/clase10.md) | [Clase 10](recursos/clase10.md) | Web Sockets
+
 
 
 Temario
