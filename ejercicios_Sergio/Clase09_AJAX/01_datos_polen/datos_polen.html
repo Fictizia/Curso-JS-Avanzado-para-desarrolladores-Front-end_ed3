@@ -2,23 +2,32 @@
     <HEAD>
         <SCRIPT>
             (function(){
-                var patata;
+                var barriosList;
+                var medicionesList;
                 function peticionAjax(url) {
                     var xmlHttp = new XMLHttpRequest();
                     
-
                     xmlHttp.onreadystatechange = function() {
 
                         if (xmlHttp.readyState === 4 && xmlHttp.status === 200) {
                             console.info(JSON.parse(xmlHttp.responseText));
-                            patata = JSON.parse(xmlHttp.responseText);
+                            barriosList = JSON.parse(xmlHttp.responseText);
 
-                            patata.forEach((item, index) => {
-                                let name = patata[index].name;
-                                
+                            barriosList.forEach((item, index) => {
+                                let name = barriosList[index].name;
                                 console.log(name);
+                                
                             });
 
+                            for (i in barriosList) {
+ 
+                                for (j in barriosList.mediciones[i]) {
+                                    
+                                    x = barriosList.mediciones[i].fecha[j];
+
+                                    console.log(x);
+                                }
+                                }
 
                         } else if (xmlHttp.readyState === 4 && xmlHttp.status === 404) {
                             console.error("ERROR! 404");
@@ -27,10 +36,6 @@
                     };
                     xmlHttp.open("GET", url, true);
                     xmlHttp.send();
-
-                    
-                    
-
                 }
                 
                 peticionAjax ("http://airemad.com/api/v1/pollen");
