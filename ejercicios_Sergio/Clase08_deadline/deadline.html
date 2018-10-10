@@ -1,0 +1,70 @@
+<!-- Realiza una pagina web que muestre la cuenta atrás para terminar el curso en días, horas, minutos y segundos. Objetivos Adicionales:
+
+Además debería de seguir actualizando la cuenta atrás de manera dinámica.
+Los datos horarios siempre deben mostrarse con dos dígitos, añadiendo un cero a la izquierda cuando sea necesario. -->
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <script>
+            setInterval(
+                function countdown(){ 
+                    // Get now in milliseconds
+                    const justNow = Date.now();
+                    // get course end date in milliseconds
+                    const courseEnd = new Date(2018, 11, 6, 22, 00, 00, 00);
+                    const courseEndMs = courseEnd.getTime();
+                    const courseEndEs = courseEnd.toLocaleDateString('es-ES')
+
+                    // Calculate time left
+                    var timeLeft = - (justNow - courseEndMs);
+                    var totalSecsLeft = parseInt(timeLeft / 1000);
+                    let totalMinsLeft = parseInt(totalSecsLeft / 60);
+                    let totalHoursLeft = parseInt(totalMinsLeft / 60);
+                    let daysLeft = parseInt(totalHoursLeft / 24);
+                    let hoursLeft = parseInt(totalHoursLeft - (daysLeft * 24));
+                    let minsLeft = parseInt(totalMinsLeft - (totalHoursLeft * 60));
+                    let secsLeft = parseInt(totalSecsLeft - (totalMinsLeft * 60));
+
+                    // print the results on the HTML
+                    document.getElementById("end-date").innerHTML= `${courseEndEs}`;
+                    document.getElementById("counter-days").innerHTML= `${daysLeft} días - `;
+                    document.getElementById("counter-hours").innerHTML= `${hoursLeft} horas - `;
+                    document.getElementById("counter-mins").innerHTML= `${minsLeft} minutos - `;
+                    document.getElementById("counter-secs").innerHTML= `${secsLeft} segundos`;
+                }
+             , 1000);
+            countdown();
+    </script>
+    <style>
+        body {
+            background: black;
+        }
+        .counter {
+            color: greenyellow;
+            font-size: 50px;
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+        }
+        .counter-time ul li {
+            list-style: none;
+            display: inline;
+        }
+    </style>
+</head>
+<body>
+    <div class="counter">
+        <p class="counter-title">
+            El curso finaliza el <div id="end-date">...</div>
+        </p>
+        <div class="counter-time">
+            <ul>
+                <li id="counter-days"></li>
+                <li id="counter-hours"></li>
+                <li id="counter-mins"></li>
+                <li id="counter-secs"></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

@@ -3,24 +3,50 @@
  * https://www.fictizia.com/profesorado
  */
 
+// TODO probar con for anidados.
+ 
 var teachersInfo = []
 
 var teachersList = Array.prototype.slice.call(document.querySelectorAll('article.microCard'));
 
-teachersList.forEach((item, index) => {
 
-    var teachersLinks = Array.prototype.slice.call(teachersList[index].querySelectorAll('.microBtns li'));
+var links = [];
 
-    teachersInfo.push({
-        name: teachersList[index].querySelector('h3').innerText,
-        info: teachersList[index].querySelector('p').innerText,
-        links: [
-            teachersLinks.forEach((item, index) => {
-                teachersLinks[index].querySelectorAll('a').innerHTML;
-            })
-        ],
-        picture: teachersList[index].querySelector('.withMedia img').src
-    });
-})
+var patata;
 
-console.log(teachersInfo);
+for (i=0; i < teachersList.length; i++ ) {
+
+    // var teachersLinks = []
+
+    var teachersLinks = teachersList[i].querySelectorAll('.microBtns li');
+
+   
+    
+    for (j=0; j < teachersLinks.length; j++ ) {
+        
+        console.log(teachersLinks[i][j]);
+        //var links = teachersList[i][j].querySelectorAll('.microBtns li a');
+        //links[i].push(teachersLinks.querySelector('a').href);
+
+        //console.log(links);
+    }
+
+    //console.log(teachersLinks);
+
+    // teachersList.forEach((item, index) => {
+    //     Array.prototype.slice.call(teachersList[i][index].querySelector('.microBtns li a')).innerText;
+    // })
+
+    // teachersInfo.push({
+    //     name: teachersList[i].querySelector('h3').innerText,
+    //     info: teachersList[i].querySelector('p').innerText,
+    //     links: [
+            
+    //     ]
+            
+    //     ,
+    //     picture: teachersList[i].querySelector('.withMedia img').src
+    // });
+}
+
+// console.log(teachersInfo);
