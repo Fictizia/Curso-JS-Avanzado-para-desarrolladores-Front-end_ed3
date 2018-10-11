@@ -7,6 +7,12 @@ Los datos horarios siempre deben mostrarse con dos dígitos, añadiendo un cero 
 
 <head>
     <script>
+	function addZero(number){
+		if (number < 10) {
+			number = "0" + number;
+		};
+		return number;
+	}
             setInterval(
                 function countdown(){ 
                     // Get now in milliseconds
@@ -22,28 +28,39 @@ Los datos horarios siempre deben mostrarse con dos dígitos, añadiendo un cero 
                     let totalMinsLeft = parseInt(totalSecsLeft / 60);
                     let totalHoursLeft = parseInt(totalMinsLeft / 60);
                     let daysLeft = parseInt(totalHoursLeft / 24);
-                    let hoursLeft = parseInt(totalHoursLeft - (daysLeft * 24));
+                    let hoursLeft = parseInt(totalHoursLeft - (daysLeft * 24) - 1);
                     let minsLeft = parseInt(totalMinsLeft - (totalHoursLeft * 60));
                     let secsLeft = parseInt(totalSecsLeft - (totalMinsLeft * 60));
+					
+					daysLeft = addZero(daysLeft);
+					hoursLeft = addZero(hoursLeft);
+					minsLeft = addZero(minsLeft);
+					secsLeft = addZero(secsLeft);
 
                     // print the results on the HTML
                     document.getElementById("end-date").innerHTML= `${courseEndEs}`;
                     document.getElementById("counter-days").innerHTML= `${daysLeft} días - `;
                     document.getElementById("counter-hours").innerHTML= `${hoursLeft} horas - `;
                     document.getElementById("counter-mins").innerHTML= `${minsLeft} minutos - `;
-                    document.getElementById("counter-secs").innerHTML= `${secsLeft} segundos`;
+                    document.getElementById("counter-secs").innerHTML= `${secsLeft} segundos`;					
+					
                 }
              , 1000);
             countdown();
     </script>
     <style>
+	
+	@font-face {
+		font-family: counter;
+		src: url('digital_counter_7/digital_counter_7.ttf');
+	}
         body {
             background: black;
         }
         .counter {
             color: greenyellow;
             font-size: 50px;
-            font-family: 'Courier New', Courier, monospace;
+            font-family: 'counter', 'Courier New', Courier, monospace;
             text-align: center;
         }
         .counter-time ul li {
