@@ -9,11 +9,109 @@
     
 <html>
 <head>
+    <title>El tiempo en varias ciudades españolas</title>
     <script>
-        
+        (function(){
+                
+            function roundOneDecimal(number){
+                if (!Number.isInteger(number)) { number = number.toFixed(1); }
+                return number;
+            }
+
+            function peticionAjax(url) {
+                var xmlHttp = new XMLHttpRequest();
+                
+                xmlHttp.onreadystatechange = function() {
+
+                    if (xmlHttp.readyState === 4 && xmlHttp.status === 200) {
+                        console.info(JSON.parse(xmlHttp.responseText));
+                        weather = JSON.parse(xmlHttp.responseText);
+
+                        if (weather.name === 'Bilbao') {
+                            cityCode = "BI";
+                        }
+                        if (weather.name === 'Madrid') {
+                            cityCode = "M";
+                        }
+                        else if (weather.name === 'Valencia'){
+                            cityCode = "V";
+                        }
+                        else if (weather.name === 'Barcelona'){
+                            cityCode = "B";
+                        }
+                        
+                        document.getElementById('name' + cityCode).innerHTML = weather.name;
+                        document.getElementById('description' + cityCode).innerHTML = weather.weather[0].description;
+                        document.getElementById('humidity' + cityCode).innerHTML = roundOneDecimal(weather.main.humidity);
+                        document.getElementById('temp' + cityCode).innerHTML = roundOneDecimal(weather.main.temp);
+                        document.getElementById('temp_max' + cityCode).innerHTML = roundOneDecimal(weather.main.temp_max);
+                        document.getElementById('temp_min' + cityCode).innerHTML = roundOneDecimal(weather.main.temp_min);
+                        document.getElementById('weatherIcon' + cityCode).src = `https://openweathermap.org/img/w/${weather.weather[0].icon}.png`;
+                        
+
+                    } else if (xmlHttp.readyState === 4 && xmlHttp.status === 404) {
+                        console.error("ERROR! 404");
+                        console.info(JSON.parse(xmlHttp.responseText));
+                    }
+                };
+                xmlHttp.open("GET", url, true);
+                xmlHttp.send();
+            }
+            
+            peticionAjax ("http://api.openweathermap.org/data/2.5/weather?q=Bilbao,es&units=metric&lang=eu&apikey=7a724f4e0103c282260da50c28f153c6");
+            peticionAjax ("http://api.openweathermap.org/data/2.5/weather?q=Madrid,es&units=metric&lang=es&apikey=7a724f4e0103c282260da50c28f153c6");
+            peticionAjax ("http://api.openweathermap.org/data/2.5/weather?q=Valencia,es&units=metric&lang=es&apikey=7a724f4e0103c282260da50c28f153c6");
+            peticionAjax ("http://api.openweathermap.org/data/2.5/weather?q=Barcelona,es&units=metric&lang=es&apikey=7a724f4e0103c282260da50c28f153c6");
+        })();
     </script>
 </head>
 <body>
-
+<h1>El tiempo en varias ciudades españolas:</h1>
+<ul>
+    <li>
+        <h2 id="nameBI"></h2>
+        <p id="descriptionBI"></p>
+        <img src="" alt="" width="50" height="50" id="weatherIconBI">
+        <ul>
+            <li>Temperatura: <span id="tempBI"></span>ºC</li>
+            <li>Temperatura máxima: <span id="temp_maxBI"></span>ºC</li>
+            <li>Temperatura mínima: <span id="temp_minBI"></span>ºC</li>
+            <li>Humedad: <span id="humidityBI"></span>%</li>
+        </ul>
+    </li>
+    <li>
+        <h2 id="nameM"></h2>
+        <p id="descriptionM"></p>
+        <img src="" alt="" width="50" height="50" id="weatherIconM">
+        <ul>
+            <li>Temperatura: <span id="tempM"></span>ºC</li>
+            <li>Temperatura máxima: <span id="temp_maxM"></span>ºC</li>
+            <li>Temperatura mínima: <span id="temp_minM"></span>ºC</li>
+            <li>Humedad: <span id="humidityM"></span>%</li>
+        </ul>
+    <li>
+    </li>
+        <h2 id="nameV"></h2>
+        <p id="descriptionV"></p>
+        <img src="" alt="" width="50" height="50" id="weatherIconV">
+        <ul>
+            <li>Temperatura: <span id="tempV"></span>ºC</li>
+            <li>Temperatura máxima: <span id="temp_maxV"></span>ºC</li>
+            <li>Temperatura mínima: <span id="temp_minV"></span>ºC</li>
+            <li>Humedad: <span id="humidityV"></span>%</li>
+        </ul>
+    </li>
+    <li>
+        <h2 id="nameB"></h2>
+        <p id="descriptionB"></p>
+        <img src="" alt="" width="50" height="50" id="weatherIconB">
+        <ul>
+            <li>Temperatura: <span id="tempB"></span>ºC</li>
+            <li>Temperatura máxima: <span id="temp_maxB"></span>ºC</li>
+            <li>Temperatura mínima: <span id="temp_minB"></span>ºC</li>
+            <li>Humedad: <span id="humidityB"></span>%</li>
+        </ul>
+    </li>
+</ul>
 </body>
 </html>
