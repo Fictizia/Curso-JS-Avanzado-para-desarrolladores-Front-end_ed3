@@ -635,5 +635,31 @@ for(var i = 0; i < imagenes.length; i++){
 
 **4 -** Nos creamos un array de objetos con la informacion, links y fotografias de l@s [profes de Fictizia](https://www.fictizia.com/profesorado)
 ```javascript
-    // Tu solución
+var listaProfesores = [];
+
+var profesores = document.querySelectorAll('.microCard');
+
+for (var i = 0; profesores.length > i; i++) {
+	
+	var profesor = profesores[i];
+	
+	detallesProfesor = {
+		nombre: profesor.querySelector("h3").innerText,
+		bio: profesor.querySelector("p").innerText,
+		avatar: profesor.querySelector("img").src,
+	};
+	
+	var links = profesor.querySelectorAll(".microBtns > li")
+	
+	for (var j = 0; links.length > j; j++) {
+		var link = links[j]
+		var linkNombre = link.innerText.toLowerCase().trim();
+		var linkUrl = link.querySelector("a").href;
+		detallesProfesor[linkNombre] = linkUrl
+	}
+	
+	listaProfesores.push(detallesProfesor)
+}
+
+console.log(listaProfesores);
 ```
