@@ -540,7 +540,21 @@ s
 **1 -** Saca una lista de los cursos disponibles en Fictizia en el [área de Desarrollo interactivo y Web](https://www.fictizia.com/planes/desarrollo-interactivo-y-web) y conviertelo en Markdown. 
 
 ```javascript
-	// Tu solución
+var markdown = "# Cursos de Fictizia en el Área de Desarrollo interactivo y Web\n\n";
+
+var cursos = document.querySelectorAll('.plan');
+
+
+for (var i = 0; cursos.length > i; i++) {
+	
+	var curso = cursos[i];
+	var horas = curso.querySelector(".mainTag").innerText;
+	var titulo = curso.querySelector("a").innerText
+	var link = curso.querySelector("a").href
+	markdown +=  "- [" + titulo + " (" + horas + ")](" + link + ")\n";
+}
+
+console.log(markdown);
 ```
 
 - Respuesta esperada (consola):
