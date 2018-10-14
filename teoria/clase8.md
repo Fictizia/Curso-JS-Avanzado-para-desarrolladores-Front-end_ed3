@@ -340,9 +340,7 @@ Objetivos Adicionales:
 - Además debería de seguir actualizando la cuenta atrás de manera dinámica.
 - Los datos horarios siempre deben mostrarse con dos dígitos, añadiendo un cero a la izquierda cuando sea necesario.
 
-```javascript
-    // Tu solución
-```
+[Solucion](../OTROS/cuenta-atras.html)
 
 ### Proyecto Personal
 ![IMG](https://media.giphy.com/media/sNjTRqN38JDXy/giphy.gif)
