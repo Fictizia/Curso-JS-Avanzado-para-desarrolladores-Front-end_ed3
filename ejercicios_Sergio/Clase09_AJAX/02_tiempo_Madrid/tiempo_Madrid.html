@@ -24,7 +24,6 @@
                 xmlHttp.onreadystatechange = function() {
 
                     if (xmlHttp.readyState === 4 && xmlHttp.status === 200) {
-                        console.info(JSON.parse(xmlHttp.responseText));
                         weather = JSON.parse(xmlHttp.responseText);
 
                         if (weather.name === 'Bilbao') {
