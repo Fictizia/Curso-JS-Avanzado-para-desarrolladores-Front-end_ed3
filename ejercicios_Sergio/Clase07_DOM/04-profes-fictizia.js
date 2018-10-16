@@ -9,27 +9,24 @@ var teachersInfo = []
 
 var teachersList = Array.prototype.slice.call(document.querySelectorAll('article.microCard'));
 
-
-var links = [];
-
-var patata;
+console.log(teachersList);
 
 for (i=0; i < teachersList.length; i++ ) {
 
     // var teachersLinks = []
 
-    var teachersLinks = teachersList[i].querySelectorAll('.microBtns li');
-
-   
+    var teachersLinks = teachersList[i].querySelectorAll('.microBtns li a');
     
-    for (j=0; j < teachersLinks.length; j++ ) {
+    console.log(teachersLinks);
+
+    // for (j=0; j < teachersLinks.length; j++ ) {
         
-        console.log(teachersLinks[i][j]);
+    //    console.log(teachersLinks[i][j]);
         //var links = teachersList[i][j].querySelectorAll('.microBtns li a');
         //links[i].push(teachersLinks.querySelector('a').href);
 
         //console.log(links);
-    }
+    // }
 
     //console.log(teachersLinks);
 
@@ -48,5 +45,3 @@ for (i=0; i < teachersList.length; i++ ) {
     //     picture: teachersList[i].querySelector('.withMedia img').src
     // });
 }
-
-// console.log(teachersInfo);
