@@ -197,6 +197,8 @@ ref.off();
 - `orderByValue()` Ordenar por valor
 - `orderByPriority()` Ordenar por prioridad
 
+IMPORTANTE:
+
 Recursos
 - [Firebase - Queries Part I](https://www.firebase.com/blog/2013-10-01-queries-part-one.html)
 - [Firebase - Queries Part II](https://www.firebase.com/blog/2014-01-02-queries-part-two.html)
