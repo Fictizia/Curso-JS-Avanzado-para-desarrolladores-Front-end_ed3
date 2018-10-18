@@ -56,6 +56,12 @@ Teoría | Recursos | Descripción
 [Clase 6](teoria/clase6.md) | [Clase 6](recursos/clase6.md) | Paradigmas: Programación orientada a Objetos
 [Clase 7](teoria/clase7.md) | [Clase 7](recursos/clase7.md) | BOM y DOM
 [Clase 8](teoria/clase8.md) | [Clase 8](recursos/clase8.md) | Gestión de Eventos
+[Clase 9](teoria/clase9.md) | [Clase 9](recursos/clase9.md) | Ajax
+[Clase 10](teoria/clase10.md) | [Clase 10](recursos/clase10.md) | Web Sockets
+[Clase 11](teoria/clase11.md) | [Clase 11](recursos/clase11.md) | Firebase I: Intro + Realtime Database
+[Clase 12](teoria/clase12.md) | [Clase 12](recursos/clase12.md) | Firebase I: Autenticación y Hosting
+
+
 
 Temario
 =================

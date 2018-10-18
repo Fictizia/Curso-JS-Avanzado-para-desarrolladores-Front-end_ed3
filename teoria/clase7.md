@@ -540,7 +540,21 @@ s
 **1 -** Saca una lista de los cursos disponibles en Fictizia en el [área de Desarrollo interactivo y Web](https://www.fictizia.com/planes/desarrollo-interactivo-y-web) y conviertelo en Markdown. 
 
 ```javascript
-	// Tu solución
+var markdown = "# Cursos de Fictizia en el Área de Desarrollo interactivo y Web\n\n";
+
+var cursos = document.querySelectorAll('.plan');
+
+
+for (var i = 0; cursos.length > i; i++) {
+	
+	var curso = cursos[i];
+	var horas = curso.querySelector(".mainTag").innerText;
+	var titulo = curso.querySelector("a").innerText
+	var link = curso.querySelector("a").href
+	markdown +=  "- [" + titulo + " (" + horas + ")](" + link + ")\n";
+}
+
+console.log(markdown);
 ```
 
 - Respuesta esperada (consola):
@@ -573,7 +587,16 @@ s
 - Saca el estado actual de todas las líneas del metro de Madrid por consola.
 
 ```javascript
-    // Tu solución
+var lineas = document.querySelectorAll('.bloquet');
+
+for (var i = 0; i < lineas.length; i++) {
+  var estado = lineas[i].querySelector('.circulacion > .txt > a');
+  
+  if(!estado) estado = lineas[i].querySelector('.circulacion > .r > a');
+  
+  if(estado) console.log(estado.innerText.trim());
+  
+}
 ```
 
 - Respuesta esperada:
@@ -597,10 +620,46 @@ Circulación normal en ML1
 
 **3 -**  Diseña un script que sustituya todas las imágenes de las entradas de [Tecnología del Mundo Today](http://www.elmundotoday.com/noticias/tecnologia/) por [imágenes dummy de gatitos](https://placekitten.com/).
 ```javascript
-    // Tu solución
+var imagenes = document.querySelectorAll('.td-module-thumb img');
+
+for(var i = 0; i < imagenes.length; i++){
+	var url = document.querySelectorAll('.td-module-thumb img')[i].src;
+	var ancho = document.querySelectorAll('.td-module-thumb img')[i].width;
+	var alto = document.querySelectorAll('.td-module-thumb img')[i].height;
+	var sustituto = "https://placekitten.com/"+ancho+"/"+alto;
+	document.querySelectorAll('.td-module-thumb img')[i].src = sustituto;
+	// Hack para solucionar el visionado
+	document.querySelectorAll('.td-module-thumb img')[i].removeAttribute("srcset");
+}
 ```
 
 **4 -** Nos creamos un array de objetos con la informacion, links y fotografias de l@s [profes de Fictizia](https://www.fictizia.com/profesorado)
 ```javascript
-    // Tu solución
+var listaProfesores = [];
+
+var profesores = document.querySelectorAll('.microCard');
+
+for (var i = 0; profesores.length > i; i++) {
+	
+	var profesor = profesores[i];
+	
+	detallesProfesor = {
+		nombre: profesor.querySelector("h3").innerText,
+		bio: profesor.querySelector("p").innerText,
+		avatar: profesor.querySelector("img").src,
+	};
+	
+	var links = profesor.querySelectorAll(".microBtns > li")
+	
+	for (var j = 0; links.length > j; j++) {
+		var link = links[j]
+		var linkNombre = link.innerText.toLowerCase().trim();
+		var linkUrl = link.querySelector("a").href;
+		detallesProfesor[linkNombre] = linkUrl
+	}
+	
+	listaProfesores.push(detallesProfesor)
+}
+
+console.log(listaProfesores);
 ```
