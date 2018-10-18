@@ -59,6 +59,7 @@ Teoría | Recursos | Descripción
 [Clase 9](teoria/clase9.md) | [Clase 9](recursos/clase9.md) | Ajax
 [Clase 10](teoria/clase10.md) | [Clase 10](recursos/clase10.md) | Web Sockets
 [Clase 11](teoria/clase11.md) | [Clase 11](recursos/clase11.md) | Firebase I: Intro + Realtime Database
+[Clase 12](teoria/clase12.md) | [Clase 12](recursos/clase12.md) | Firebase I: Autenticación y Hosting
 
 
 
