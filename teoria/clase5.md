@@ -10,7 +10,7 @@
 
 ## Clase 5
 
-![img](https://cdn-images-1.medium.com/max/1446/1*JhDw7yiwv5YOJIncUhCXQg.png)
+![img](../assets/clase5/6c8b2059-c4a8-4d29-b409-2fae97db5417.png)
 
 ### Recursos
 - [Compatibilidad 2016+](http://kangax.github.io/compat-table/esnext/)
@@ -102,7 +102,7 @@ numero **= 2; // 9
 
 ## ES2017 (ES8)
 
-![img](https://i.ytimg.com/vi/LsynbD9gwqg/maxresdefault.jpg)
+![img](../assets/clase5/a6665da4-4263-4cc4-a34c-d1e2c509cf93.jpeg)
 
 ### Recursos
 - [Async Functions for ECMAScript](https://github.com/tc39/ecmascript-asyncawait)
@@ -291,7 +291,7 @@ foo("a", "b", "b",);
 
 ### TC39 y nuestro futuro
 
-![img](https://cdn-images-1.medium.com/max/1000/1*ReeHV0eEsfmMskVUk1vVog.png)
+![img](../assets/clase5/c45c90ff-6680-4fcd-9001-be81325017b1.png)
 
 **Recursos**
 - [SPEC - Proceso del comite](https://tc39.github.io/process-document/)
@@ -312,7 +312,7 @@ foo("a", "b", "b",);
 
 ### Ejercicios
 
-![img](https://marsblogger.files.wordpress.com/2015/04/giga.png)
+![img](../assets/clase5/e5de94a1-1030-4af1-9fc2-4b8e3a1bc5f2.png)
 
 #### 1 - Ayudemos a la NASA!
 
