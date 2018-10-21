@@ -108,3 +108,7 @@
 - http://cdn772.swedroid.se/wp-content/uploads/2016/05/google-firebase-logo-600x308.png 
 - https://cdn.scotch.io/1/Bg4r7dI1Q2W3bX9Sf4oD_unnamed.png 
 - https://cdn-images-1.medium.com/max/1200/1*qmvFg6ILS7Y8WsUxa2vLOw.gif 
+
+### clase12
+
+- https://firebase.google.com/docs/auth/images/auth-providers.png?hl=es-419 
