@@ -74,3 +74,8 @@
 - https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/DOM-model.svg/1200px-DOM-model.svg.png 
 - http://xitrus.es/blog/imgs/nojquery.png 
 - https://cdn.worldvectorlogo.com/logos/bootstrap-5.svg 
+
+### clase8
+
+- http://i.stack.imgur.com/liJ5u.png 
+- https://media.giphy.com/media/sNjTRqN38JDXy/giphy.gif 
