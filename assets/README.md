@@ -27,3 +27,14 @@
 - https://cdn.worldvectorlogo.com/logos/gitlab-1.svg 
 - https://www.atlassian.com/dam/jcr:bd56917e-e361-4f03-b672-9f5ef5b06e80/Bitbucket-blue.svg 
 - https://c2.staticflickr.com/6/5547/12317670703_bc38a3ec49_b.jpg 
+
+### clase2
+
+- http://krystianczaplicki.com/wp-content/uploads/2018/07/chrome-devtools.jpg 
+- https://upload.wikimedia.org/wikipedia/commons/2/26/Logo_Google_Chrome_Canary.jpg 
+- https://borjaarandavaquero.com/wp-content/uploads/2017/01/google-pagespeed.png 
+- https://searchengineland.com/figz/wp-content/seloads/2018/05/google-lighthouse-800x364.jpg 
+- https://testinproduction.files.wordpress.com/2017/09/articleocw-599af35e5ad57.png?w=1000 
+- https://csbun.github.io/workbox-examples/workbox-get-started/images/workbox_logo.png 
+- https://articles.tbscg.com/wp-content/uploads/2015/09/google-chrome-devtools-banner.png 
+- https://media.kasperskydaily.com/wp-content/uploads/sites/92/2018/01/30060157/browser-extensions-security-featured-1024x672.jpg 
