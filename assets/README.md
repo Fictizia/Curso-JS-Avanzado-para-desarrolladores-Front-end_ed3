@@ -42,3 +42,12 @@
 ### clase3
 
 - http://estaticos04.elmundo.es/elmundo/imagenes/2010/06/29/1277838432_0.jpg 
+
+### clase4
+
+- https://s3-us-west-2.amazonaws.com/devcodepro/media/tutorials/novedades-ecmascript6-t1.gif 
+- https://assets.contents.io/asset_Y9hpxcgL.png 
+- https://raw.githubusercontent.com/getify/You-Dont-Know-JS/master/es6%20%26%20beyond/fig1.png 
+- https://mdn.mozillademos.org/files/8629/typed_arrays.png 
+- https://cdn-images-1.medium.com/max/1600/1*4KPIzPcEPAI0um7OQ-ibYw.jpeg 
+- https://mdn.mozillademos.org/files/8633/promises.png 
