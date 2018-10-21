@@ -94,3 +94,10 @@
 - https://www.htmlgoodies.com/imagesvr_ce/8497/proxy_server.jpg 
 - http://jsonpwrapper.com/intro.png 
 - https://qph.ec.quoracdn.net/main-qimg-4d442c9be049f302435ccecd9f2cd756.webp 
+
+### clase10
+
+- http://fernetjs.com/wp-content/uploads/2012/11/websocket-lifecycle.png 
+- http://cdn.sandsmedia.com/ps/onlineartikel/pspic/picture_file/53/WebSocket4dd23ade6df2a.png 
+- https://camo.githubusercontent.com/b74075d1deca125ad36f8fded4055f896d9f2108/687474703a2f2f666f746f732e73756265666f746f732e636f6d2f32376135653361633065393936666134663063643066613239386635356366636f2e706e67 
+- https://i.giphy.com/3ohze2apsm6Qpb281y.gif 
