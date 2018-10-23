@@ -29,6 +29,8 @@
     - HTTPS
   - Confirmación del usuario
 
+  kali debian SO para hacking, instalar y probar.
+
 - Precisión:
     - Wi-fi (MAC)
     - Ethernet (IP)
@@ -249,6 +251,8 @@ navigator.geolocation.watchPosition(position => {
 
 ### Carto
 
+Muy buena opcion para dibuja mapas basados en datos
+
 ![Carto logo](../assets/clase13/cf3aa645-b672-412c-91ab-8e331d91c2a6.svg)
 
 **Documentación**
@@ -283,6 +287,8 @@ navigator.geolocation.watchPosition(position => {
 **Documentación**
 - [OSM | Web oficial](https://www.openstreetmap.org/#map=7/40.007/-2.488)
 - [Learn OpenStreetMap Step by Step](https://learnosm.org/en/)
+
+MUY INTERESANTE en la lista de correo te dan alertas de prremotos etc antes que nadie
 - [HOT | Humanitarian OpenStreetMap Team](https://www.hotosm.org/)
 - [HOT | Tools & Data](https://www.hotosm.org/tools-and-data)
 - [Wheelmap | Project](https://news.wheelmap.org/en/wheelmap-ambassador/)
@@ -300,7 +306,10 @@ navigator.geolocation.watchPosition(position => {
 - [Docuemntación oficial](https://openlayers.org/en/latest/doc/)
 - [Ejemplos](https://openlayers.org/en/latest/examples/)
 - [API](http://openlayers.org/en/latest/apidoc/)
+
+MIRAR:
 - [Awesome OpenLayers](https://github.com/webgeodatavore/awesome-openlayers)
+
 - [OpenLayers Simple Example](https://wiki.openstreetmap.org/wiki/OpenLayers_Simple_Example)
 - [OpenLayers Marker Example](https://wiki.openstreetmap.org/wiki/OpenLayers_Marker_Example)
 - [Github](https://github.com/openlayers/openlayers)
@@ -461,6 +470,8 @@ function initMap() {
 
 
 ### GeoJSON
+
+Un JSON que te pinta el mapa automáticamente
 
 - [Especificación](http://geojson.org/geojson-spec.html)
 - [Web oficial](http://geojson.org/)

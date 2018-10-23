@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <script>
+            (function() {
+                const key = 'AIzaSyBZ_wV8ZXtsuQ2mCFIlKKQDFxLrCwn2sk0';
+                if ("geolocation" in navigator) {
+                    navigator.geolocation.getCurrentPosition(position => {
+                        console.log(`Latitud: ${position.coords.latitude}\nLongitud: ${position.coords.longitude}`);
+                        let datos = `<h1>Te pille!</h1>
+                        <p>Latitud: ${position.coords.latitude.toFixed(4)}</p>
+                        <p>Longitud: ${position.coords.longitude.toFixed(4)}</p>`
+                        document.body.innerHTML = datos;
+
+                        const latlon = `${position.coords.latitude},${position.coords.longitude}`;
+                        console.log(latlon);
+                        const img_url = `http://maps.googleapis.com/maps/api/staticmap?center=${latlon}&zoom=14&size=400x300&sensor=false&key=${key}`;
+                        document.body.innerHTML = `<img src='${img_url}'>`;
+                    });
+                    
+                } else {
+                    console.warn("Geolocation no soportado :-( ");
+                }
+            })();
+        </script>
+
+    </head>
+    <body></body>
+</html>
