@@ -12,7 +12,7 @@
 
 ### Firebase
 
-![FirebaseLogo](https://firebase.google.com/images/brand-guidelines/logo-standard.png)
+![FirebaseLogo](../assets/clase11/e328a53f-950b-4346-8bcf-517f8dc96c85.png)
 
 - [Pricing](https://firebase.google.com/pricing/)
 - [Features](https://firebase.google.com/features/)
@@ -361,8 +361,8 @@ presenceRef.onDisconnect().set("I disconnected!");
 
 ### [Nuevo Firebase 3.x](https://firebase.google.com/)
 
-![new_logo](http://cdn772.swedroid.se/wp-content/uploads/2016/05/google-firebase-logo-600x308.png)
-![funcionalidades](https://cdn.scotch.io/1/Bg4r7dI1Q2W3bX9Sf4oD_unnamed.png)
+![new_logo](../assets/clase11/d01afdc3-985b-4576-8158-e85786cd9479.png)
+![funcionalidades](../assets/clase11/3e0c9e42-5d06-4ea5-a77a-fa8270b13873.png)
 
 **Más info**
 - [Firebase expands to become a unified app platform](https://firebase.googleblog.com/2016/05/firebase-expands-to-become-unified-app-platform.html)
@@ -452,7 +452,7 @@ ref.on("value", snapshot => {
 
 ### Resumen Rápido: Realtime Database
 
-![realtime](https://cdn-images-1.medium.com/max/1200/1*qmvFg6ILS7Y8WsUxa2vLOw.gif)
+![realtime](../assets/clase11/188c5621-41fb-4e72-a403-73a9a450b32b.gif)
 
 **[Configurando las reglas de lectura/escritura](https://firebase.google.com/docs/database/security/quickstart#sample-rules)**
 

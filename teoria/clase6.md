@@ -12,7 +12,7 @@
 
 ### Paradigmas de Programación
 
-![img](http://4.bp.blogspot.com/-YUyWf1Ey2nQ/VcUCyFjtPXI/AAAAAAAAACU/Hk9ylpwa-3g/s1600/1.jpg)
+![img](../assets/clase6/805fc8c0-80be-450c-8ccf-3e3329546e20.jpeg)
 
 > Un paradigma de programación es una propuesta tecnológica adoptada por una comunidad de programadores y desarrolladores cuyo núcleo central es incuestionable en cuanto que únicamente trata de resolver uno o varios problemas claramente delimitados; la resolución de estos problemas debe suponer consecuentemente un avance significativo en al menos un parámetro que afecte a la ingeniería de software.
 > Un paradigma de programación representa un enfoque particular o filosofía para diseñar soluciones. Los paradigmas difieren unos de otros, en los conceptos y la forma de abstraer los elementos involucrados en un problema, así como en los pasos que integran su solución del problema, en otras palabras, el cómputo.
@@ -57,7 +57,7 @@ La usaremos en websokets y eventos en tiempo real.
 - Etc...
 
 ### POO: La teoría
-![img](https://cdn-images-1.medium.com/max/1000/1*vYtDyAbOMTJnArJvXix5wg.jpeg)
+![img](../assets/clase6/9bd2a3ff-d6f2-4736-89f7-5f413050d0c4.jpeg)
 
 >La programación basada en prototipos es un estilo de programación orientada a objetos en la que las clases no están presentes y la reutilización de comportamiento (conocido como herencia en lenguajes basados en clases) se lleva a cabo a través de un proceso de decoración de objetos existentes que sirven de prototipos. Este modelo también se conoce como programación sin clases, orientada a prototipos o basada en ejemplos.
 >[Mozilla developer network](https://developer.mozilla.org/es/docs/Web/JavaScript/Introducci%C3%B3n_a_JavaScript_orientado_a_objetos)
@@ -643,8 +643,8 @@ class ClearableWeakMap {
 
 ### POO: Las buenas partes
 
-![img](http://nmp90.com/wp-content/uploads/2017/12/object-oriented-programming.jpg)
+![img](../assets/clase6/f6ef334e-8107-4b40-8d43-f54c7489153c.jpeg)
 
 ### POO: Las partes malas
 
-![img](https://cdn-images-1.medium.com/max/800/1*cBFSQ9Ytv_D0jwGtpuL5WA.png)
+![img](../assets/clase6/3016607f-d103-45f9-b35a-a9e736ac1e59.png)

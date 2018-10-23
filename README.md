@@ -60,6 +60,7 @@ Teoría | Recursos | Descripción
 [Clase 10](teoria/clase10.md) | [Clase 10](recursos/clase10.md) | Web Sockets
 [Clase 11](teoria/clase11.md) | [Clase 11](recursos/clase11.md) | Firebase I: Intro + Realtime Database
 [Clase 12](teoria/clase12.md) | [Clase 12](recursos/clase12.md) | Firebase I: Autenticación y Hosting
+[Clase 13](teoria/clase13.md) | [Clase 13](recursos/clase13.md) | HTML5: Geo y mapas
 
 
 

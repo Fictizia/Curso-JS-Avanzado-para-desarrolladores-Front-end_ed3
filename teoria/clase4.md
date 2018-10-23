@@ -11,8 +11,8 @@
 ## Clase 4
 
 
-![aniamted_gif](https://s3-us-west-2.amazonaws.com/devcodepro/media/tutorials/novedades-ecmascript6-t1.gif)
-![releases lines](https://assets.contents.io/asset_Y9hpxcgL.png)
+![aniamted_gif](../assets/clase4/eda20eb6-cb4e-454f-acaf-19d51e97edb8.gif)
+![releases lines](../assets/clase4/ca4bcd5a-b57e-4fa4-a192-359adf2f5646.png)
 
 ### ECMA6
 
@@ -308,7 +308,7 @@ var f = ([a, b] = [1, 2], {x: c} = {x: a + b}) => a + b + c; f(); // 6
 
 
 ### ECMA6: ¿Cuando usar Arrow Functions?
-![img](https://raw.githubusercontent.com/getify/You-Dont-Know-JS/master/es6%20%26%20beyond/fig1.png)
+![img](../assets/clase4/ce483990-a67d-42d4-9687-6cd8d5268421.png)
 
 
 ### ECMA6: Gestión de Parámetros en funciones
@@ -691,7 +691,7 @@ Object.getOwnPropertySymbols(obj) // [ foo, bar ]
 
 ### ECMA6: Typed Array
 
-![img](https://mdn.mozillademos.org/files/8629/typed_arrays.png)
+![img](../assets/clase4/25dfbd7d-d7a7-4d96-be18-ab3e0353de21.png)
 
 - Pensado para trabajar con datos binarios puros (ws, audio, vídeo...)
 - No son arrays convencionales, asi que `Array.isArray()` es `false`
@@ -1027,8 +1027,8 @@ obj === obj					// false
 
 ### ECMA6: Promesas
 
-![img](https://cdn-images-1.medium.com/max/1600/1*4KPIzPcEPAI0um7OQ-ibYw.jpeg)
-![promises_ecma6](https://mdn.mozillademos.org/files/8633/promises.png)
+![img](../assets/clase4/2cbd8e0c-8a05-491c-a5e7-c969b29cbaba.jpeg)
+![promises_ecma6](../assets/clase4/b925a9c0-489c-4c5b-870e-b811ca768ecf.png)
 > A promise represents the eventual result of an asynchronous operation. The primary way of interacting with a promise is through its *then* method, which registers callbacks to receive either a promise’s eventual value or the reason why the promise cannot be fulfilled.
 > From [promisesaplus.com/](http://promisesaplus.com/)
 

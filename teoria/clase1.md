@@ -29,7 +29,7 @@
 
 ### Sobre el profesor
 
-![panda_developer](https://pbs.twimg.com/media/C4I8FJzWQAUVNVR.jpg)
+![panda_developer](../assets/clase1/df6a381f-002d-4d23-813f-00b26f59dafd.jpeg)
 
 **Bio:**
 "#Maker, #IoT, #OpenSource | #JavaScript, #Node, #Python | Co-organizador de [@os_weekends](http://osweekends.com/) | Profe en [@fictiziaescuela](http://www.fictizia.com/profesores/) | Mentor en [@TetuanValley](https://twitter.com/tetuanvalley) | Autor de [#JavaScriptInspirate](https://leanpub.com/javascript-inspirate) | Freelance | xIBMer"
@@ -81,27 +81,27 @@
 ### Arquitectura de Internet 
 **Navegación**
 
-![img](http://www.simplimation.com/uploads/news/images/full/5-how-the-web-works.jpg)
+![img](../assets/clase1/15f35727-3b36-48ef-b183-2cb419ea6376.jpeg)
 
 **Hosting**
 
-![img](http://dodynamic.com/wp-content/uploads/2009/08/website-house-analogy.jpg)
+![img](../assets/clase1/5e65e281-074f-4625-ad2c-4a67126a94f9.jpeg)
 
 **CMS (Back-End)**
 
-![img](https://www.inqbation.com/wp-content/uploads/2011/03/how-cms-works-0.jpg) 
+![img](../assets/clase1/31489257-738e-4e4d-839e-78871dd82ff3.html) 
 
 **CDN (Content Delivery Network)**
 
-![img](http://premium.wpmudev.org/blog/wp-content/uploads/2014/09/cdns.png)
+![img](../assets/clase1/470ffbdf-eefc-4f98-bd25-2cf681ab713a.html)
 
 **Tracking**
 
-![img](https://fpf.org/wp-content/uploads/2009/11/data.gif)
+![img](../assets/clase1/b1719a89-7f23-4cf9-9180-2dd913d38cc6.gif)
 
 **[W3C - World Wide Web Consortium](https://www.w3.org/)**
 
-![img](https://upload.wikimedia.org/wikipedia/commons/e/ed/W3C%C2%AE_Icon.svg)
+![img](../assets/clase1/3d6310ad-6f4f-45af-b8b6-9ba4c6f59cd7.svg)
 
 - [historia y logros](https://www.w3.org/2005/01/timelines/timeline-2500x998.png)
 
@@ -110,7 +110,7 @@
 
 ### HTML
 
-![img](https://programacion.net/files/article/20170421010425_html5.jpg)
+![img](../assets/clase1/24acdfad-00ef-48a1-a2ae-70d310045247.jpeg)
 
   > HTML, sigla en inglés de HyperText Markup Language (lenguaje de marcas de hipertexto), hace referencia al lenguaje de marcado para la elaboración de páginas web. Es un estándar que sirve de referencia del software que conecta con la elaboración de páginas web en sus diferentes versiones, define una estructura básica y un código (denominado código HTML) para la definición de contenido de una página web, como texto, imágenes, videos, juegos, entre otros. Es un estándar a cargo del World Wide Web Consortium (W3C) o Consorcio WWW, organización dedicada a la estandarización de casi todas las tecnologías ligadas a la web, sobre todo en lo referente a su escritura e interpretación. Se considera el lenguaje web más importante siendo su invención crucial en la aparición, desarrollo y expansión de la World Wide Web (WWW). Es el estándar que se ha impuesto en la visualización de páginas web y es el que todos los navegadores actuales han adoptado.1
 
@@ -125,7 +125,7 @@
 
 ### CSS
 
-![img_logo](http://nexttechltd.com/wp-content/uploads/2017/04/html-5-css-3.jpg)
+![img_logo](../assets/clase1/64e0f317-4f4b-45bd-85ae-229ace2b223d.jpeg)
 
   > Hoja de estilo en cascada o CSS (siglas en inglés de cascading style sheets) es un lenguaje usado para definir y crear la presentación de un documento estructurado escrito en HTML o XML2 (y por extensión en XHTML). El World Wide Web Consortium (W3C) es el encargado de formular la especificación de las hojas de estilo que servirán de estándar para los agentes de usuario o navegadores.
   > La idea que se encuentra detrás del desarrollo de CSS es separar la estructura de un documento de su presentación.[CSS Wikiwand](https://es.wikipedia.org/wiki/Hoja_de_estilos_en_cascada)
@@ -142,7 +142,7 @@
 
 ### JavaScript
 
-![js_logo](https://pre00.deviantart.net/f72e/th/pre/f/2013/052/6/d/jake_the_dog___pure_css_adventure_time_wallpaper_by_sangreprimitiva-d5vs51f.png)
+![js_logo](../assets/clase1/1e7c7669-9bd6-4071-9582-a2d92563f9ad.jpeg)
 
 > JavaScript (abreviado comúnmente JS) es un lenguaje de programación interpretado, dialecto del estándar ECMAScript. Se define como orientado a objetos, basado en prototipos, imperativo, débilmente tipado y dinámico.
 
@@ -216,14 +216,14 @@
 
 ### Node.js
 
-![Node_logo](https://32414320wji53mwwch1u68ce-wpengine.netdna-ssl.com/wp-content/uploads/2015/03/2000px-Node.js_logo.svg_.png)
+![Node_logo](../assets/clase1/5117d946-a8ff-4f27-9c10-e4e5b92b5ebd.png)
 
 > Node.js es un entorno en tiempo de ejecución multiplataforma, de código abierto, para la capa del servidor (pero no limitándose a ello) basado en el lenguaje de programación ECMAScript, asíncrono, con I/O de datos en una arquitectura orientada a eventos y basado en el motor V8 de Google. Fue creado con el enfoque de ser útil en la creación de programas de red altamente escalables, como por ejemplo, servidores web. Fue creado por Ryan Dahl en 2009 y su evolución está apadrinada por la empresa Joyent, que además tiene contratado a Dahl en plantilla - [Wikipedia](https://www.wikiwand.com/es/Node.js)
 
 
 **Otra manera es posible**
 
-![bloqueo](https://servercheck.in/sites/servercheck.in/files/node-drupal-queue-comparison.jpg)
+![bloqueo](../assets/clase1/75c78d0a-6e59-4a23-9265-c51d25a5fad8.jpeg)
 
 
 **Puntos Fuertes**
@@ -316,7 +316,7 @@
   - etc...
 
 ### Entorno de desarollo moderno
-![Diversos Entornos](http://cdn.softwaretestinghelp.com/wp-content/qa/uploads/2014/05/test-dev-and-production-environment.jpg)
+![Diversos Entornos](../assets/clase1/92645669-a2a0-4094-8366-6eddd7f24b37.jpeg)
 - **[JSON](https://es.wikipedia.org/wiki/JSON)**
 - **[AJAX](https://es.wikipedia.org/wiki/AJAX)**
 - **[APIs Rest](https://es.wikipedia.org/wiki/Representational_State_Transfer)**
@@ -345,7 +345,7 @@
 
 **Cambios, cambios... y más cambios**
 
-![humor](https://camo.githubusercontent.com/fde3ba248dbb5c9c6f630159b9a6d48708f228e6/687474703a2f2f7777772e636f6d6d697473747269702e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031352f30392f53747269702d5072656e6472652d6c652d747261696e2d656e2d6d61726368652d3635302d66696e616c656e676c697368312e6a7067)
+![humor](../assets/clase1/2a99d169-e131-470a-9b98-cabf71537a9e.jpeg)
 
 - [State of the Art JavaScript in 2016](https://medium.com/javascript-and-opinions/state-of-the-art-javascript-in-2016-ab67fc68eb0b#.8byumpq6f)
 - [If Loving Computers is Wrong, I Don't Want to Be Right](http://blog.codinghorror.com/if-loving-computers-is-wrong-i-dont-want-to-be-right/)
@@ -402,7 +402,7 @@
 
 ### C9.io
 
-![c9_logo](https://dka575ofm4ao0.cloudfront.net/pages-transactional_logos/retina/8389/vz1XuNqHTyfO4YsqI3f2)
+![c9_logo](../assets/clase1/3ea52a7b-b2c0-46bf-b25f-4261f2e77779.png)
 
 **Características estrella**
 - Code together in real time
@@ -783,7 +783,7 @@
 
 **Working Flow**
 
-![Como trabajar con Git](http://nvie.com/img/git-model@2x.png)
+![Como trabajar con Git](../assets/clase1/47925b83-ba4c-49c6-af01-bc2af46ec191.png)
 
 
 ### Github
@@ -827,8 +827,8 @@ git --version
 
 Configuración (entornos):
 
-[Repositorios locales y remotos](http://media.tumblr.com/tumblr_lbnpoxYtNm1qaku05.png)
-![Repositorios locales y remotos](http://media.tumblr.com/tumblr_lbnpoxYtNm1qaku05.png)
+[Repositorios locales y remotos](../assets/clase1/295b49b2-a3a3-4d41-9735-6a7940640d01.png)
+![Repositorios locales y remotos](../assets/clase1/295b49b2-a3a3-4d41-9735-6a7940640d01.png)
 
 - System (todos los usuarios)
     - git config --system
@@ -845,7 +845,7 @@ Configuración (entornos):
 
 **Comandos básicos**
 
-![data transport commands](https://s3.amazonaws.com/media-p.slid.es/uploads/479298/images/4043813/Screen-Shot-2015-06-24-at-8.37.13-PM-1024x663.png)
+![data transport commands](../assets/clase1/7b3247ae-c646-4c24-b34b-9fcfb751d178.png)
 
 versión
 ```
@@ -1397,13 +1397,13 @@ Recuerda que debes incluir este comando antes de tu próximo *git push*
 - [https://api.github.com/repos/{user}/{repo}](https://api.github.com/repos/OSWeekends/c9scripts)
 
 ### Resumen
-![Trabajar con Git/Github](http://www.geekgumbo.com/wp-content/uploads/2011/08/nvie-git-workflow-commands.png)
-[tamaño original](http://www.geekgumbo.com/wp-content/uploads/2011/08/nvie-git-workflow-commands.png)
+![Trabajar con Git/Github](../assets/clase1/2f6b713b-91db-4c01-af0f-d147ce05aac6.png)
+[tamaño original](../assets/clase1/2f6b713b-91db-4c01-af0f-d147ce05aac6.png)
 
 
 ### Git Drama: Microsfot compró Github
 
-![img](https://thepracticaldev.s3.amazonaws.com/i/5ccop0xkp5y5d81tfwi2.png)
+![img](../assets/clase1/12a68fd3-69a0-44e5-8d7f-f709aa52a274.png)
 
 - [Con la compra de GitHub, Microsoft hace honor a su mantra: desarrolladores, desarrolladores, desarrolladores](https://www.xataka.com/aplicaciones/microsoft-punto-adquirir-github-desarrolladores-desarrolladores-desarrolladores)
 - [Confirmado: Microsoft compra GitHub por 7.500 millones de dólares](https://www.genbeta.com/actualidad/confirmado-microsoft-compra-github-7-500-millones-dolares)
@@ -1424,7 +1424,7 @@ Recuerda que debes incluir este comando antes de tu próximo *git push*
 
 ### Los principales jugadores
 
-![img](https://www.amarinfotech.com/wp-content/uploads/2017/05/GitLab-vs-GitHub-vs-bitbucket-1.jpg)
+![img](../assets/clase1/795a7456-023e-471e-8293-68761c22701c.jpeg)
 
 - [GitHub vs. Bitbucket vs. GitLab vs. Coding](https://medium.com/flow-ci/github-vs-bitbucket-vs-gitlab-vs-coding-7cf2b43888a1)
 - [The Key Differences : GitLab vs GitHub vs bitbucket](https://medium.com/@ramoliya/the-key-differences-gitlab-vs-github-vs-bitbucket-3d76c4bcf5e6)
@@ -1435,12 +1435,12 @@ Recuerda que debes incluir este comando antes de tu próximo *git push*
 
 ### Terminología
 
-![terminologia](https://about.gitlab.com/images/blogimages/gitlab-terminology.png)
+![terminologia](../assets/clase1/15b94ce9-029f-427b-b80a-128a563d8132.png)
 
 
 ### Gitlab
 
-![logo](https://cdn.worldvectorlogo.com/logos/gitlab-1.svg)
+![logo](../assets/clase1/f9161140-c8a9-48ba-bcc2-8c087b6f0fc5.svg)
 
 **Recursos**
 - [Canal oficial de Youtube](https://www.youtube.com/channel/UCnMGQ8QHMAnVIsI3xJrihhg)
@@ -1470,7 +1470,7 @@ Recuerda que debes incluir este comando antes de tu próximo *git push*
 
 ### Bitbucket
 
-![Logo](https://www.atlassian.com/dam/jcr:bd56917e-e361-4f03-b672-9f5ef5b06e80/Bitbucket-blue.svg)
+![Logo](../assets/clase1/1529d22a-80d3-4905-a068-a6f2d530dc5a.svg)
 
 **Recursos**
 - [@bitbucket en Twitter](https://twitter.com/bitbucket)
@@ -1508,7 +1508,7 @@ Recuerda que debes incluir este comando antes de tu próximo *git push*
 
 ### Ejercicios
 
-![logo](https://c2.staticflickr.com/6/5547/12317670703_bc38a3ec49_b.jpg)
+![logo](../assets/clase1/3711d6be-a4c8-4b76-bc5b-9402b3b35114.jpeg)
 
 
 **1 -** Creamos una cuenta en Github y creamos un workespace con referencia a nuestro repositorio de GitHub en [c9.io](https://c9.io/) una vez hayamos recibido la invitación.

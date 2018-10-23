@@ -12,7 +12,7 @@
 
 ### Authentication
 
-![auth](https://firebase.google.com/docs/auth/images/auth-providers.png?hl=es-419)
+![auth](../assets/clase12/a7bd48d3-bce9-4a2b-955a-2b98ef0f98d6.png)
 
 [Todas las funcionalidades](https://firebase.google.com/docs/auth/web/start)
 

@@ -12,7 +12,7 @@
 
 ### WebSockets
 
-![WS_Sockets](http://fernetjs.com/wp-content/uploads/2012/11/websocket-lifecycle.png)
+![WS_Sockets](../assets/clase10/99df7f10-3f95-46f3-ba1b-16c429ed1c01.png)
 - Protocolo de comunicación qe se negocia sobre HTTP
 - Full-duplex
 - Única conexión permanente (Siempre conectado)
@@ -24,7 +24,7 @@
 
 **Entendiendo los eventos**
 
-![Sockets](http://cdn.sandsmedia.com/ps/onlineartikel/pspic/picture_file/53/WebSocket4dd23ade6df2a.png)
+![Sockets](../assets/clase10/35018c8c-68c5-4be9-88d3-01bc67430102.png)
 
 
 **Negociación del protocolo WebSocket**
@@ -90,7 +90,7 @@ myWebSocket.close();
 ```
 
 ### WS: Sockets.io
-![Sockets](https://camo.githubusercontent.com/b74075d1deca125ad36f8fded4055f896d9f2108/687474703a2f2f666f746f732e73756265666f746f732e636f6d2f32376135653361633065393936666134663063643066613239386635356366636f2e706e67)
+![Sockets](../assets/clase10/2df4b0ac-3925-418f-bc07-714ef7370955.png)
 
 Caracrerísticas:
 - Fácil
@@ -161,7 +161,7 @@ socket.close(); // Si quieres reabrir. -> socket.connect();
 
 **Concepto**
 
-![](https://i.giphy.com/3ohze2apsm6Qpb281y.gif)
+![](../assets/clase10/30ce15f1-2085-47b0-94ba-a3a2d19e13ed.gif)
 
 ```javascript
     //Tu solución
