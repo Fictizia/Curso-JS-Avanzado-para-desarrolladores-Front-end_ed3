@@ -12,7 +12,7 @@
 
 ### ¿Cómo navegamos por internet?
 
-![img](http://www.programmings4beginners.com/wp-content/uploads/2017/06/Screenshot-939.png)
+![img](../assets/clase9/c71418ae-3298-42e6-bae5-c07d4d6b6380.png)
 
 - [How the Internet Works in 5 Minutes](https://www.youtube.com/watch?v=7_LPdttKXPc)
 - Internet es la `red de redes`.
@@ -33,17 +33,17 @@
 
 **Partes de una comunicación**
 
-![img](http://blog.catchpoint.com/wp-content/uploads/2010/09/simplehttp1.png)
+![img](../assets/clase9/ecadd54d-45eb-4ac0-8eb8-c54fda17a5c9.png)
 
 
 **Petición HTTP Típica**
 
-![img](http://www.tcpipguide.com/free/diagrams/httprequest.png)
+![img](../assets/clase9/e1597340-56ae-4f6d-ab57-f111b3ce9384.png)
 
 
 **Respuesta HTTP Típica**
 
-![img](http://www.tcpipguide.com/free/diagrams/httpresponse.png)
+![img](../assets/clase9/147a19cd-960b-4784-b3fe-c8517c0df5b1.png)
 
 
 **HTTP y sus códigos**
@@ -57,7 +57,7 @@
 
 ### ¿Cómo funciona el protocolo SSL/TLS?
 
-![img_ssl](https://cebuwebmaker.com/wp-content/uploads/2017/11/Difference-Between-HTTP-and-HTTPS-e1511321523338.png)
+![img_ssl](../assets/clase9/407b5847-d987-4147-911e-fcd4c3537b57.png)
 
 **Recursos**
 - [HakTip - How to Capture Packets with Wireshark - Getting Started](https://www.youtube.com/watch?v=6X5TwvGXHP0)
@@ -71,7 +71,7 @@
 ### ¿Qué es AJAX?
 
 
-![Ajax comparación](http://gemsres.com/story/feb07/338111/fig1.jpg)
+![Ajax comparación](../assets/clase9/5d3096c5-7fab-4754-a9d9-bb3211fb39a6.jpeg)
 
 
 **Recursos**
@@ -165,7 +165,7 @@ var datoRecuperado = JSON.parse(datoJSON); //object -> {"nombre":"Ulises","profe
 
 **CRUD**
 
-![CRUD](https://jmunoadotnet.files.wordpress.com/2017/09/crud.png?w=810)
+![CRUD](../assets/clase9/fb7d1320-937b-4b00-8639-0ae0faa8cbae.png)
 
 > En informática, CRUD es el acrónimo de "Crear, Leer, Actualizar y Borrar" (del original en inglés: Create, Read, Update and Delete), que se usa para referirse a las funciones básicas en bases de datos o la capa de persistencia en un software. [Wikipedia](https://es.wikipedia.org/wiki/CRUD)
 
@@ -192,7 +192,7 @@ var datoRecuperado = JSON.parse(datoJSON); //object -> {"nombre":"Ulises","profe
 **REST: Transferencia de Estado Representacional**
 > La transferencia de estado representacional (en inglés representational state transfer) o REST es un estilo de arquitectura software para sistemas hipermedia distribuidos como la World Wide Web. El término se originó en el año 2000, en una tesis doctoral sobre la web escrita por Roy Fielding, uno de los principales autores de la especificación del protocolo HTTP y ha pasado a ser ampliamente utilizado por la comunidad de desarrollo. [Wikipedia](https://es.wikipedia.org/wiki/Transferencia_de_Estado_Representacional)
 
-![img](https://cdn-images-1.medium.com/max/1600/0*HU6ti25J9Y_hJQjl.)
+![img](../assets/clase9/7caf84af-1b97-4cae-b2e1-2cb8ed2c696c.txt)
 
 **APIs: Ejemplos de documentación**
 - [API RTVE](https://github.com/UlisesGascon/RTVE-API)
@@ -220,7 +220,7 @@ var datoRecuperado = JSON.parse(datoJSON); //object -> {"nombre":"Ulises","profe
 
 ### CORS: Control de acceso HTTP
 
-![img](https://brianflove.com/images/posts/2017/cors-in-express-using-typescript-headers.png)
+![img](../assets/clase9/8a9326f8-351a-42ad-bc46-ce52e27f1de0.png)
 
 > El Intercambio de Recursos de Origen Cruzado (CORS) es un mecanismo que utiliza encabezados adicionales HTTP para permitir que un user agent obtenga permiso para acceder a recursos seleccionados desde un servidor, en un origen distinto (dominio), al que pertenece. Un agente crea una petición HTTP de origen cruzado cuando solicita un recurso desde un dominio distinto, un protocolo o un puerto diferente al del documento que lo generó. [MDN](https://developer.mozilla.org/es/docs/Web/HTTP/Access_control_CORS)
 
@@ -236,7 +236,7 @@ var datoRecuperado = JSON.parse(datoJSON); //object -> {"nombre":"Ulises","profe
 
 ### PROXY
 
-![img](https://www.htmlgoodies.com/imagesvr_ce/8497/proxy_server.jpg)
+![img](../assets/clase9/ce8994dc-f894-419c-bb8f-c0d5daa17e77.jpeg)
 
 **Proxy Free Online**
 - [cors-anywhere](http://cors-anywhere.herokuapp.com/)
@@ -277,9 +277,9 @@ app.listen(8080);
 
 ### JSONP
 
-![img](http://jsonpwrapper.com/intro.png)
+![img](../assets/clase9/1a86c9bf-04eb-4514-9a03-19f7251b6848.png)
 
-![img](https://qph.ec.quoracdn.net/main-qimg-4d442c9be049f302435ccecd9f2cd756.webp)
+![img](../assets/clase9/094856ac-100d-4217-957a-96a7b14f01da.html)
 
 - json (formato)
 ```javascript

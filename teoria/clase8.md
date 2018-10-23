@@ -15,7 +15,7 @@
 [Soporte](http://caniuse.com/#search=addEventListener)
 
 - Podemos escuchar eventos y enlazar funciones (*event handler*)
-![img_pro_bu](http://i.stack.imgur.com/liJ5u.png)
+![img_pro_bu](../assets/clase8/ade9d220-d65e-4857-bc9f-241d1050b083.png)
 
 [Demo](http://jsfiddle.net/L79xw5ye/)
 
@@ -341,4 +341,4 @@ Objetivos Adicionales:
 [Solucion](../OTROS/cuenta-atras.html)
 
 ### Proyecto Personal
-![IMG](https://media.giphy.com/media/sNjTRqN38JDXy/giphy.gif)
+![IMG](../assets/clase8/235a2f2d-ab48-45bb-81c6-f90664883325.gif)

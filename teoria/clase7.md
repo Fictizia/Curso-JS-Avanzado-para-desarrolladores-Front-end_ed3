@@ -12,7 +12,7 @@
 
 ### BOM (Browser Object Model)
 
-![DOM, BOM y JS](https://cdn-images-1.medium.com/max/1600/1*GDGCFOr1d65UKnIo8IjArQ.png)
+![DOM, BOM y JS](../assets/clase7/04053682-e585-4373-90a8-1c4484f5e1c8.png)
 
 ### Window history
 
@@ -152,7 +152,7 @@ article[data-columns='4'] {
 
 ### Render del browser
 
-![render browser](https://s3.amazonaws.com/media-p.slid.es/uploads/479298/images/4641757/browser-diagram-full-2.png)
+![render browser](../assets/clase7/2d77df19-8520-4e6a-99c5-384c8cf48553.png)
 
 - [An Introduction to Browser Rendering](https://www.youtube.com/watch?v=n1cKlKM3jYI)
 - [Ryan Seddon: So how does the browser actually render a website | JSConf EU 2015](https://www.youtube.com/watch?v=SmE4OwHztCc)
@@ -160,7 +160,7 @@ article[data-columns='4'] {
 
 ### DOM
 
-![DOM_img](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/DOM-model.svg/1200px-DOM-model.svg.png)
+![DOM_img](../assets/clase7/49a42e93-eb04-4d9e-a23e-75faaf3da1f4.png)
 
 
 - [DOM - Document Object Model](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
@@ -460,7 +460,7 @@ element.hasAttribute('href');
 
 ### Trabajar sin JQuery
 
-![img](http://xitrus.es/blog/imgs/nojquery.png)
+![img](../assets/clase7/034948e1-e761-4404-bdd6-bea5ccd41421.png)
 
 - **[You Might Not Need Jquery](http://youmightnotneedjquery.com/)**
 - **[You Might Not Need Jquery(en GitHub)](https://github.com/HubSpot/youmightnotneedjquery)**
@@ -487,7 +487,7 @@ s
 
 ### Frameworks: Bootstrap
 
-![Bootstrap](https://cdn.worldvectorlogo.com/logos/bootstrap-5.svg)
+![Bootstrap](../assets/clase7/de0b605a-23cf-4243-9e59-a6024f6cc7e1.svg)
 
 **Recursos**
 - [twbs/bootstrap](https://github.com/twbs/bootstrap)
