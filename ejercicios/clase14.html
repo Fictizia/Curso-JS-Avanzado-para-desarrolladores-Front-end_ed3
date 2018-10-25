@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>localStorage</title>
+</head>
+
+<body>
+  <form id="phoneForm">
+    <label for="name">Nombre</label>
+    <input type="text" id="name" name="name" required>
+    <hr>
+    <label for="phone">telefono</label>
+    <input type="text" name="phone" id="phone" required>
+    <hr>
+    <label for="mail">email</label>
+    <input type="email" name="mail" id="mail" required>
+    <hr>
+    <div id="buttonManager">
+      <div>
+        <button id="save">guardar</button>
+        <button id="find">buscar</button>
+        <button id="remove">eliminar</button>
+      </div>
+      <button id="removeAll">eliminar todo</button>
+
+    </div>
+  </form>
+  <script>
+    window.addEventListener('storage', function (event) {
+      console.warn("cambios en storage")
+    });
+    const list = {
+      emit:function(){
+        window.dispatchEvent(new Event("storage"));
+      },
+      get: function () {
+        return JSON.parse(localStorage.getItem("list")) || [];
+      },
+      add: function (info) {
+        let phoneList = this.get();
+        phoneList.push(info)
+        localStorage.setItem("list", JSON.stringify(phoneList));
+        this.emit();
+      },
+      remove: function ({ name, phone, mail }) {
+        const tmpList = this.get();
+        const index = list.findIndex(el => el.name === name && el.phone === phone && el.mail && mail)
+        if(index !== -1){
+          tmpList.slice(index,1);
+          this.emit();
+        }
+      },
+      removeAll: function () {
+        localStorage.removeItem("list");
+      },
+      find: function (info) {
+        if (info) {
+          const { name, phone, mail } = info;
+          const tmpList = this.get();
+          const tmpInfo = tmpList.find(el => el.name === name || el.phone === phone || el.mail === mail)
+          return tmpInfo
+        }
+      }
+    }
+    function getInfoFromControls() {
+      const name = document.getElementById("name").value;
+      const phone = document.getElementById("phone").value;
+      const mail = document.getElementById("mail").value;
+      return { name, phone, mail }
+    }
+    function addToList(item) {
+      let phoneList = getListFromStorage();
+      phoneList.push(info);
+      localStorage.setItem("list", JSON.stringify(phoneList));
+    }
+    function isValid({ name, phone, mail }) {
+      return (name && phone && mail)
+    }
+    
+    function setEmptyForm() {
+      document.getElementById("name").value = "";
+      document.getElementById("phone").value = "";
+      document.getElementById("mail").value = "";
+    }
+    function prepareAndSave(ev) {
+      const info = getInfoFromControls();
+      if (isValid(info)) {
+        ev.preventDefault();
+        list.add(info)
+        setEmptyForm();
+      }
+    }
+    document.getElementById("phoneForm").addEventListener("keyup", (ev) => {
+      ev.preventDefault();
+      if (ev.keyCode == 13) {
+        prepareAndSave(ev);
+      }
+    });
+    document.getElementById('buttonManager').addEventListener("click", (ev) => {
+      
+      let opt = ev.target.id;
+      if (opt !== "save") {
+        ev.preventDefault();
+        list[opt](getInfoFromControls());
+      }else{
+        prepareAndSave(ev)
+      }
+    });
+
+  </script>
+</body>
+
+</html>
