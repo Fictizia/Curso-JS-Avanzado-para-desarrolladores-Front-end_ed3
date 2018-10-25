@@ -125,3 +125,5 @@
 - http://www.joseluisestevez.com/wp-content/uploads/2016/02/logo_ol3.png 
 - http://mourner.github.io/Leaflet/docs/images/logo.png 
 - http://www.thenetworking.com/wp-content/uploads/2017/10/google-maps-logo-openA.png 
+
+### clase14
