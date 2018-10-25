@@ -30,6 +30,7 @@
     - Funcionamiento clave/valor
     - Solo se permite el almacenamiento de cadenas de texto.
 
+
 ### LocalStorage: Problemas Conocidos:
 - IE 8 y 9 almacena los datos basandose unicamente en el hostname, ignorando el protocolo (http/https) y el puerto.
 - En iOS 5 y 6 los datos se almacenan en una localización que puede ser borrada ocasionalmente por el SO.
@@ -86,6 +87,11 @@ if (window.sessionStorage) {
 ```
 
 **Usando json en LocalStorage**
+
+
+    Si quieres meter josn se hace un stringify al meterlo y parse al recuperar los datos.
+
+
 ```javascript
 var objeto = {
     numero: 1,
@@ -137,7 +143,9 @@ for ( var i = 0; i < localStorage.length; i++ ) {
 - Recursos:
     - [Medium | contenteditable](https://medium.com/search?q=contenteditable)
     - [ContentEditable — The Good, the Bad and the Ugly](https://medium.com/content-uneditable/contenteditable-the-good-the-bad-and-the-ugly-261a38555e9c)
-    - [CKEditor 5: The Future of Rich Text Editing](https://medium.com/content-uneditable/ckeditor-5-the-future-of-rich-text-editing-2b9300f9df2c)
+    - [CKEditor 5: The Future of Rich Text Editing]
+    
+    Para crear contendio editable(https://medium.com/content-uneditable/ckeditor-5-the-future-of-rich-text-editing-2b9300f9df2c)
     - [Fixing ContentEditable](https://medium.com/content-uneditable/fixing-contenteditable-1a9a5073c35d)
     - [A Standard for Rich-Text Data](https://medium.com/content-uneditable/a-standard-for-rich-text-data-4b3a507af552)
     - [Comparison with Other Rich Text Editors](https://quilljs.com/guides/comparison-with-other-rich-text-editors/)
