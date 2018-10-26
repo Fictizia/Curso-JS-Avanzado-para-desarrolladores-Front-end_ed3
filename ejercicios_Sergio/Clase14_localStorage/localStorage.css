@@ -1,0 +1,57 @@
+body {
+    margin:20px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+label {
+    width: 300px;
+    display: block;
+    margin-top: 10px;
+}
+button {
+    margin-top: 20px;
+    background-color: blueviolet;
+    color: #FFF;
+}
+ul li {
+    list-style: none;
+}
+.contact {
+    display: inline-flex;
+    border-radius: 5px;
+    border-color: blueviolet;
+    border-width: 1px;
+    padding: 10px;
+    margin: 10px;
+    border-style: solid;
+    width: 400px;
+}
+.contact-list {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    width: 220px;
+}
+.contact-item {
+    word-wrap:break-word;
+}
+input[type='text'],
+input[type='email'],
+input[type='tel'], 
+button{
+    padding: 10px;
+    border-radius: 5px;
+    border-color: #ccc;
+    border-width: 1px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.error {
+    color: red;
+    font-size: 12px;
+}
+.avatar {
+    float: left;
+    margin-right: 10px;
+}

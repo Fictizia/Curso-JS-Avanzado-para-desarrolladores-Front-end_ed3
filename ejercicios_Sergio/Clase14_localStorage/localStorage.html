@@ -1,114 +1,15 @@
 <html>
     <head>
-        <script>
-        /**
-        Crea una libreta de contactos para guardar multiples datos.
-        Objetivos:
-        Guardar Nombre, telefono y email
-        Mostrar todos los contactos en el html
-        Botón para borrar un contacto específico
-        Botón para borrar todos los contactos
-        Botón para recuperar el telefono y email de un contacto
-        Consejos:
-        Utiliza JSON.parse() y JSON.stringify() para guardar multiples datos bajo una misma clave
-        Genera un avatar al azar para el usuario usando Adorable Avatars
-        **/
-        
-        var contactsData = [];
-
-        function getContactData() {
-
-
-            // Remove the values in the output
-            document.getElementById('contactsList').innerHTML = "";
-
-            var name = document.getElementById('name').value;
-            var phone = document.getElementById('phone').value;
-            var email = document.getElementById('email').value;
-
-            contactsData.push(
-                {
-                    name: name,   
-                    phone: phone,
-                    email: email
-                }
-            );
-
-            localStorage.setItem('contacts', JSON.stringify(contactsData));
-
-            var contactsDataGet = JSON.parse(localStorage.getItem('contacts'));
-            
-
-            for (i=0; i<contactsDataGet.length; i++) {
-                document.getElementById('contactsList').innerHTML += `
-                    <li>
-                        <ul>
-                            <li>${contactsDataGet[i].name}</li>
-                            <li>${contactsDataGet[i].phone}</li>
-                            <li>${contactsDataGet[i].email}</li>
-                        </ul>
-                    </li>
-                    `;
-            }
-
-            //document.getElementById('contactsList').innerHTML=`<li>${name}</li><li>${phone}</li><li>${email}</li>`;
-
-        }
-
-        function clearAllContacts() {
-            localStorage.removeItem('contacts');
-        }
-
-        function deleteContact(contactToDelete){
-
-            var contactsDataGet = JSON.parse(localStorage.getItem('contacts'));
-            
-            contactsDataGet.splice(contactToDelete, 1);
-
-            localStorage.setItem('contacts', JSON.stringify(contactsDataGet));
-            
-        }
-
-        function viewContact(){
-
-            var contactsDataGet = JSON.parse(localStorage.getItem('contacts'));
-            var contactToView = document.getElementById('contactToView').value;
-            var name = contactsDataGet[0].name;
-            var phone = contactsDataGet[0].phone;
-            var email = contactsDataGet[0].email;
-
-            document.getElementById('contactViewer').innerHTML = `
-                <li>${name}</li>
-                <li>${phone}</li>
-                <li>${email}</li>
-            `;
-
-        }
-
-        </script>
-
-        <style>
-            label {
-                width: 300px;
-                display: block;
-                margin-top: 10px;
-            }
-            button {
-                margin-top:20px;
-            }
-            ul li {
-                list-style: none;
-            }
-        </style>
+        <link rel="stylesheet" type="text/css" href="localStorage.css">
     </head>
     <body>
-        <form>
+        <form id="createContact">
             <label>Name:</label>
             <input type="text" id="name" required>
             <label>Phone number:</label>
-            <input type="number" id="phone">
+            <input type="text" id="phone">
             <label>Email:</label>
-            <input type="email" id="email">
+            <input type="text" id="email">
             <br>
             <button type="button" onclick="getContactData();">Send</button>
         </form>
@@ -116,23 +17,25 @@
         <ul id="contactsList">
         </ul>
 
-        <form>
+        <hr>
+
+        <form id="deleteContact">
             <label>Contact to be deleted:</label>
-            <input type="text" id="contactToDelete" required>
-            <br>
-            <button type="button" onclick="deleteContact();">Delete</button>
+            <input type="text" id="deleteContact-input" required>
+            <button type="button" onclick="deleteContact();" id="deleteContact-button">Delete</button>
         </form>
 
+        <hr>
         <button type="button" onclick="clearAllContacts();">Clear Contacts</button>
 
-        <form>
+        <hr>
+
+        <form id="viewContact">
             <label>Contact to view:</label>
             <input type="text" id="contactToView" required>
-            <br>
             <button type="button" onclick="viewContact();">View</button>
         </form>
 
-        <ul id="contactViewer"></ul>
-
+        <script src="localStorage.js"></script>
     </body>
 </html>
