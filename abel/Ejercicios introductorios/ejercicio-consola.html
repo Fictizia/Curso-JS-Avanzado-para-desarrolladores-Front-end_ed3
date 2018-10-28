@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+
+  <h1>helloworldddd</h1>
+
+  <script>
+  
+  class Persona {
+    constructor (edad, nombre) {
+      this.edad = edad;
+      this.nombre = nombre;
+    }
+
+    get howOld() {
+      return this.edad;
+    }
+
+    set evenOlder(nuevaEdad) {
+      this.edad = nuevaEdad;
+    }
+  }
+
+  const yo = new Persona(30, "Abel");
+  console.log(yo.howOld)
+
+  const h1 = document.querySelectorAll("h1");
+  console.log(h1);
+
+  setTimeout(function() {
+    h1[0].innerHTML = yo.howOld;
+  }, 3000)
+
+  yo.evenOlder(35);
+
+
+  </script>
+  
+</body>
+</html>

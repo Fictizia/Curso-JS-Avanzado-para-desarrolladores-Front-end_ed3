@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="https://cdn.firebase.com/js/client/2.2.9/firebase.js"></script>
+</head>
+<body>
+  <!-- <form action=""> -->
+  <h3>Lista de asistentes a la fiesta</h3>
+    <label for="email">Introducir email</label>
+    <input type="text"> <br>
+    <button>Apuntarse</button> <br>
+    <button>Al final no voy</button>
+  <!-- </form> -->
+</body>
+
+<script src="https://www.gstatic.com/firebasejs/5.5.4/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCv6M2u980KvhXbIGu3RC5o8sBQRXoUw6o",
+    authDomain: "learning-firebase-aec.firebaseapp.com",
+    databaseURL: "https://learning-firebase-aec.firebaseio.com",
+    projectId: "learning-firebase-aec",
+    storageBucket: "",
+    messagingSenderId: "407364964017"
+  };
+  firebase.initializeApp(config);
+</script>
+<script src="database.js"></script>
+
+
+</html>

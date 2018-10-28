@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <style>
+    body {
+      width: 80%;
+      margin: 0 auto;
+      padding-top: 100px;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="row">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s12">
+          <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+          <label for="first_name">First Name</label>
+        </div>
+      </div>
+  </div>
+  <div class="row">
+    <div class="input-field col s12">
+      <input id="telephone" type="number" class="validate">
+      <label for="telephone">Teléfono</label>
+    </div>
+  </div>
+  <div class="row">
+    <div class="input-field col s12">
+      <input id="email" type="email" class="validate">
+      <label for="email">Email</label>
+    </div>
+  </div>
+  </form>
+  <button class="btn btn_wave" id="add_user">Añadir usuario</button> <br> <br>
+  <button class="btn" id="remove_user">Borrar usuario</button> <br> <br>
+  <button class="btn" id="delete_all">Borrar todos</button> <br> <br>
+  </div>
+
+  <div>
+    <p>Lista de usuarios:</p>
+    <ul id="user_list">
+
+    </ul>
+  </div>
+
+
+  <script src="localStorage.js"></script>
+
+</body>
+
+</html>
