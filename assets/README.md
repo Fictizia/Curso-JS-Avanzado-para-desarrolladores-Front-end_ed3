@@ -127,3 +127,11 @@
 - http://www.thenetworking.com/wp-content/uploads/2017/10/google-maps-logo-openA.png 
 
 ### clase14
+
+
+
+### clase15
+
+- https://i.ytimg.com/vi/exBNB5njcNA/maxresdefault.jpg 
+- https://az813057.vo.msecnd.net/testdrive/ieblog/2011/Jul/01_WebWorkersinIE10BackgroundJavaScriptMakesWebAppsFaster_2.png 
+- https://media0.giphy.com/media/l3uGKbsTIyhyM/giphy.gif 
