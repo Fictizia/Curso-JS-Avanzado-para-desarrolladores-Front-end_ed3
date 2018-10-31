@@ -84,6 +84,10 @@ window.addEventListener("online", () => {
 
 ### Offline: Usando Cache (manifest)
 
+Se ve en application > Cache > Application Cache
+
+PROBAR tensorflow
+
 **Uso**
 - Los archivos son visibles en la pestaña Resources/Application Cache
 - El atributo manifest puede señalar a una URL pero deben tener el mismo origen que la aplicación web
@@ -264,6 +268,9 @@ if (appCache.status == window.applicationCache.UPDATEREADY) {
 - [Concurrency in JavaScript](http://typedarray.org/concurrency-in-javascript/)
 
 **Librerías**
+
+NO merecen la pena
+
 - [parallel.js](https://github.com/parallel-js/parallel.js) 
 - [promise-worker](https://github.com/nolanlawson/promise-worker)
 - [Catiline.js](http://catilinejs.com/)
