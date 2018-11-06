@@ -13,15 +13,15 @@
 
 ### Los Navegadores
 
-![IMG](../assets/clase4/dbcd7fb6-8e3c-4889-9371-97270e550b7e.png)
+![IMG](../assets/clase16/dbcd7fb6-8e3c-4889-9371-97270e550b7e.png)
 
 ### Los Navegadores: Historia
 
-![IMG](../assets/clase4/5f42be74-4f3f-41df-84be-1b12ad20457b.jpeg)
+![IMG](../assets/clase16/5f42be74-4f3f-41df-84be-1b12ad20457b.jpeg)
 
 
 **Evolución**
-[![IMG](../assets/clase4/836d212d-a5a6-4ad3-b3e0-7761543f7ce3.png)](https://en.wikipedia.org/wiki/History_of_the_web_browser#/media/File:Timeline_of_web_browsers.svg)
+[![IMG](../assets/clase16/836d212d-a5a6-4ad3-b3e0-7761543f7ce3.png)](https://en.wikipedia.org/wiki/History_of_the_web_browser#/media/File:Timeline_of_web_browsers.svg)
 
 
 
@@ -36,7 +36,7 @@
 - [Wikipedia | History of the web browser](https://en.wikipedia.org/wiki/History_of_the_web_browser)
 
 ### Los Navegadores: Motores actuales
-![img](../assets/clase4/81922aa2-19f6-48c2-89be-fccc67569c1b.png)
+![img](../assets/clase16/81922aa2-19f6-48c2-89be-fccc67569c1b.png)
 
 **Browser Engine**
 - Activos	
@@ -57,7 +57,7 @@
 
 ### Los Navegadores: Interpretes de JS
 
-![IMG](../assets/clase4/20dae06f-bc45-4e61-b2e5-b9b9947fe463.jpeg)
+![IMG](../assets/clase16/20dae06f-bc45-4e61-b2e5-b9b9947fe463.jpeg)
 
 **El Motor JavaScript (JavaScript Engine)**
 - [V8 Engine de Google](https://github.com/v8/v8)
@@ -74,15 +74,15 @@
 ### Los Navegadores: Funcionamiento
 
 **Arquitectura a alto nivel**
-![img](../assets/clase4/c8988218-a54d-4710-9cf2-7fd2a56d4262.png)
+![img](../assets/clase16/c8988218-a54d-4710-9cf2-7fd2a56d4262.png)
 
 
 **Afinando los detalles**
-![img](../assets/clase4/ce427c4a-b344-478b-9633-f99ca8b9cc39.png)
+![img](../assets/clase16/ce427c4a-b344-478b-9633-f99ca8b9cc39.png)
 
 
 **[Philip Robers es un genio!](http://latentflip.com/loupe/)**
-![IMG](../assets/clase4/8e9fb5f9-8651-4fcf-9434-cbbe7efa51cb.gif)
+![IMG](../assets/clase16/8e9fb5f9-8651-4fcf-9434-cbbe7efa51cb.gif)
 
 
 **Recursos**
@@ -100,7 +100,7 @@
 
 ## Hablemos de JavaScript y más allá...
 
-![img](../assets/clase4/71a69978-5673-4d45-8db1-3d4092ed9033.jpeg)
+![img](../assets/clase16/71a69978-5673-4d45-8db1-3d4092ed9033.jpeg)
 
 **Recursos**
 - [:tv: Douglas Crockford: The JavaScript Programming Language](https://www.youtube.com/watch?v=v2ifWcnQs6M)
@@ -279,7 +279,7 @@ console.log(diez); // 5
 
 ### Las funciones en JS: Closures
 
-![IMG](../assets/clase4/ca42f64e-3415-47f2-82bf-758f7794d4cc.jpeg)
+![IMG](../assets/clase16/ca42f64e-3415-47f2-82bf-758f7794d4cc.jpeg)
 
 > Un closure o clausura es la combinación de una función y el ámbito léxico en el que se declaró dicha función. Es decir los closures o clausuras son funciones que manejan variables independientes. **En otras palabras, la función definida en el closure "recuerda" el ámbito en el que se ha creado**. [MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Closures)
 
@@ -391,7 +391,7 @@ console.log("fn2", fn2()); // 2
 
 ### Conceptos: Programación defensiva
 
-![IMG](../assets/clase4/62ab34db-ff1b-488e-8cd2-6be2160c6e05.jpeg)
+![IMG](../assets/clase16/62ab34db-ff1b-488e-8cd2-6be2160c6e05.jpeg)
 
 > La programación defensiva (defensive programming en inglés) es una forma de diseño defensivo aplicada al diseño de software que busca garantizar el comportamiento de todo elemento de una aplicación ante cualquier situación de uso por incorrecta o imprevisible que ésta pueda parecer. En general, esto supone multiplicar las comprobaciones que se realizan en todos los módulos programados, con la consiguiente penalización en carga de procesador, tiempo y aumento en la complejidad del código. Las técnicas de programación defensiva se utilizan especialmente en componentes críticos cuyo mal funcionamiento, ya sea por descuido o por ataque malicioso, podría acarrear consecuencias graves o daños catastróficos. [Wikipedia](https://es.wikipedia.org/wiki/Programaci%C3%B3n_defensiva)
 
@@ -415,7 +415,7 @@ console.log("fn2", fn2()); // 2
 
 ### Conceptos: duck typing
 
-![IMG](../assets/clase4/98ea543a-1139-4ca5-b9a3-b9a08336a2e0.png)
+![IMG](../assets/clase16/98ea543a-1139-4ca5-b9a3-b9a08336a2e0.png)
 > Si parece un pato, nada como un pato, y grazna como un pato, entonces probablemente sea un pato.
 
 **Conceptos**
@@ -667,7 +667,7 @@ console.log('new Date(0) + 0:',new Date(0) + 0);				//Thu Jan 01 1970 01:00:00 G
 
 
 **Un buen esquema estructural**
-![img](../assets/clase4/1188a9bd-f6c4-43e9-8bfe-23906bf06631.png)
+![img](../assets/clase16/1188a9bd-f6c4-43e9-8bfe-23906bf06631.png)
 
 
 **Recursos**
@@ -683,7 +683,7 @@ console.log('new Date(0) + 0:',new Date(0) + 0);				//Thu Jan 01 1970 01:00:00 G
 
 ### This: Lo básico
 
-![IMG](../assets/clase4/0b6b3a33-7f64-443c-aaf3-a6a22a48ae96.jpeg)
+![IMG](../assets/clase16/0b6b3a33-7f64-443c-aaf3-a6a22a48ae96.jpeg)
 
 **Importante**
 - `this` es uno de los conceptos peor entendidos y más odiados
@@ -857,7 +857,7 @@ premium.call(usuarios[0], false)			// @me NO es premium
 
 ### Protype:
 
-![IMG](../assets/clase4/48c11067-9de5-4ec2-bd16-0b7462e52eb4.png)
+![IMG](../assets/clase16/48c11067-9de5-4ec2-bd16-0b7462e52eb4.png)
 
 **Las claves**
 - Puede ser complejo de entender si vienes de lenguajes Orientados a Objetos
@@ -916,7 +916,7 @@ amigosOriginales.coincidencias("Jose"); // Se encontraron 0 coincidencia(s) de l
 - Los objetos se copian por referencia (shallow copy), no es una copia real.. solo otra forma de llamarlo
 - Para clonar objetos, necesitaremos hacer una recreación completa (deep copy) desde cero.
 
-![img](../assets/clase4/5cdae642-7964-4beb-b3ba-e658082d578e.gif)
+![img](../assets/clase16/5cdae642-7964-4beb-b3ba-e658082d578e.gif)
 
 **El problema de los punteros**
 ```javascript
@@ -1434,6 +1434,6 @@ console.log(array2); //[1, 2, 3, "MANDARINA"]
 
 ### Resumen de la clase :muscle::muscle:
 
-![img](../assets/clase4/07eb51ef-a3bd-44e4-b717-0e7fa2fd853e.jpeg)
+![img](../assets/clase16/07eb51ef-a3bd-44e4-b717-0e7fa2fd853e.jpeg)
 
-![IMG](../assets/clase4/687a1421-4e4b-4e69-b70d-a0caa823a3e8.png)
+![IMG](../assets/clase16/687a1421-4e4b-4e69-b70d-a0caa823a3e8.png)
