@@ -26,6 +26,9 @@
 
 
 **Recursos**
+
+INTERESANTE
+
 - [:tv: Project Code Rush - The Beginnings of Netscape / Mozilla Documentary](https://www.youtube.com/watch?v=4Q7FTjhvZ7Y)
 - [:tv: Download:The True Story of the Internet: La Guerra de los Navegadores Subtitulada](https://www.youtube.com/watch?v=zpm0tAixurg)
 - [Browser Wars: La historia de la guerra de navegadores y la historia de los userAgents](https://www.emezeta.com/articulos/browser-wars-la-historia-de-la-guerra-de-navegadores)
@@ -80,7 +83,7 @@
 **Afinando los detalles**
 ![img](../assets/clase16/ce427c4a-b344-478b-9633-f99ca8b9cc39.png)
 
-
+VER DEBERES.
 **[Philip Robers es un genio!](http://latentflip.com/loupe/)**
 ![IMG](../assets/clase16/8e9fb5f9-8651-4fcf-9434-cbbe7efa51cb.gif)
 
@@ -106,6 +109,8 @@
 - [:tv: Douglas Crockford: The JavaScript Programming Language](https://www.youtube.com/watch?v=v2ifWcnQs6M)
 - [:tv: The Post JavaScript Apocalypse - Douglas Crockford](https://www.youtube.com/watch?v=NPB34lDZj3E)
 - [:tv: dotJS 2012 - Brian Leroux - WTFJS](https://www.youtube.com/watch?v=et8xNAc2ic8)
+
+INTERESANTE para entender las cosas raras de JS
 - [:tv: What the... JavaScript?](https://www.youtube.com/watch?v=2pL28CcEijU)
 
 
@@ -278,6 +283,8 @@ console.log(diez); // 5
 
 
 ### Las funciones en JS: Closures
+
+MUY IMPORTANTE
 
 ![IMG](../assets/clase16/ca42f64e-3415-47f2-82bf-758f7794d4cc.jpeg)
 
@@ -731,6 +738,9 @@ usuario.valorThis(); // this=usuario
 - [La palabra this y el contexto en Javascript](https://desarrolloweb.com/articulos/palabra-this-contexto-javascript.html)
 - [Why THIS is so powerful in JavaScript](https://medium.com/@kristyburge/why-this-is-so-powerful-in-javascript-34116f1ca5f2)
 
+
+IMPORTANTE:
+Usar _self en vez de this
 ### This: `_self`, un salvavidas
 
 **Usando `this` correctamente**
