@@ -135,3 +135,18 @@
 - https://i.ytimg.com/vi/exBNB5njcNA/maxresdefault.jpg 
 - https://az813057.vo.msecnd.net/testdrive/ieblog/2011/Jul/01_WebWorkersinIE10BackgroundJavaScriptMakesWebAppsFaster_2.png 
 - https://media0.giphy.com/media/l3uGKbsTIyhyM/giphy.gif 
+
+
+### clase16
+
+- https://pbs.twimg.com/media/C9jUzCQXgAA6S4p.jpg 
+- https://i.ytimg.com/vi/FooS1nB3kuw/maxresdefault.jpg 
+- https://comunidad.iebschool.com/metodologiasagiles/files/2015/05/metodologias-agiles.jpg 
+- https://media.makeameme.org/created/brace-yourself-project.jpg 
+- https://memegenerator.net/img/instances/61734818/guys-code-this-software-design-done.jpg 
+- https://pbs.twimg.com/media/Db3pazRWsAE6KMC.jpg 
+- https://slimfit.khanhicetea.com/images/solve-any-problem-meme.jpg 
+- https://pbs.twimg.com/media/DfGdI0CX4AEMLA3.jpg 
+- https://memegenerator.net/img/instances/61666374/organization.jpg 
+- https://i.kym-cdn.com/photos/images/newsfeed/001/401/347/312.jpg 
+- https://res.cloudinary.com/practicaldev/image/fetch/s--3L0blRat--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://cdn-images-1.medium.com/max/2000/1%2AYkPBKSgLzs_gq1X13TcyaQ.jpeg 

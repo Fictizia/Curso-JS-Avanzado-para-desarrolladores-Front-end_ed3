@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>There is not enough space on the disk.<br></title>
+        <meta name="viewport" content="width=device-width" />
+        <style>
+         body {font-family:"Verdana";font-weight:normal;font-size: .7em;color:black;} 
+         p {font-family:"Verdana";font-weight:normal;color:black;margin-top: -5px}
+         b {font-family:"Verdana";font-weight:bold;color:black;margin-top: -5px}
+         H1 { font-family:"Verdana";font-weight:normal;font-size:18pt;color:red }
+         H2 { font-family:"Verdana";font-weight:normal;font-size:14pt;color:maroon }
+         pre {font-family:"Consolas","Lucida Console",Monospace;font-size:11pt;margin:0;padding:0.5em;line-height:14pt}
+         .marker {font-weight: bold; color: black;text-decoration: none;}
+         .version {color: gray;}
+         .error {margin-bottom: 10px;}
+         .expandable { text-decoration:underline; font-weight:bold; color:navy; cursor:hand; }
+         @media screen and (max-width: 639px) {
+          pre { width: 440px; overflow: auto; white-space: pre-wrap; word-wrap: break-word; }
+         }
+         @media screen and (max-width: 479px) {
+          pre { width: 280px; }
+         }
+        </style>
+    </head>
+
+    <body bgcolor="white">
+
+            <span><H1>Server Error in '/Img' Application.<hr width=100% size=1 color=silver></H1>
+
+            <h2> <i>There is not enough space on the disk.<br></i> </h2></span>
+
+            <font face="Arial, Helvetica, Geneva, SunSans-Regular, sans-serif ">
+
+            <b> Description: </b>An unhandled exception occurred during the execution of the current web request. Please review the stack trace for more information about the error and where it originated in the code.
+
+            <br><br>
+
+            <b> Exception Details: </b>System.IO.IOException: There is not enough space on the disk.<br><br><br>
+
+            <b>Source Error:</b> <br><br>
+
+            <table width=100% bgcolor="#ffffcc">
+               <tr>
+                  <td>
+                      <code>
+
+An unhandled exception was generated during the execution of the current web request. Information regarding the origin and location of the exception can be identified using the exception stack trace below.</code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+            <b>Stack Trace:</b> <br><br>
+
+            <table width=100% bgcolor="#ffffcc">
+               <tr>
+                  <td>
+                      <code><pre>
+[IOException: There is not enough space on the disk.
+]
+   System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath) +1093
+   System.IO.Directory.InternalCreateDirectory(String fullPath, String path, Object dirSecurityObj, Boolean checkHost) +1258
+   System.IO.Directory.InternalCreateDirectoryHelper(String path, Boolean checkHost) +64
+   ItsuvNet.TempFiles.GetTempFolderName(String baseFolder) in F:\Eff\Development\Code\Work\ItsuvNet\ItsuvNet.Core\TempFiles.cs:17
+   ItsuvNet.TempFiles.GetTempFileName(String baseFolder, String extension) in F:\Eff\Development\Code\Work\ItsuvNet\ItsuvNet.Core\TempFiles.cs:26
+   MemeGenerator.VideoFile.From(Byte[] videoFileBytes, Nullable`1 type, VimageQuality quality) in F:\Eff\Development\Code\Work\MemeGenerator\MemeGenerator8\MemeGenerator.DB\Render\VideoFile.cs:75
+
+[TargetInvocationException: Exception has been thrown by the target of an invocation.]
+   System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor) +0
+   System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments) +128
+   System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture) +146
+   MemeGenerator.DB.TimedProxy`1.TryInvokeMember(InvokeMemberBinder binder, Object[] args, Object&amp; result) in F:\Eff\Development\Code\Work\MemeGenerator\MemeGenerator8\MemeGenerator.DB\Performance\TimedProxy.cs:79
+   CallSite.Target(Closure , CallSite , Object , Int32 , VimageQuality , VimageType ) +318
+   ActLike_IImageFileStore_cd5593aca4f840d49c71dce53cf98273.Read(Int32 imageID, VimageQuality quality, VimageType type) +533
+   MemeGenerator.DB.Direct.MgImagesStore.GetVideoFile(Int32 mgImageID, VimageQuality quality, Nullable`1 type) in F:\Eff\Development\Code\Work\MemeGenerator\MemeGenerator8\MemeGenerator.DB\Direct\MgImagesStore.cs:209
+
+[TargetInvocationException: Exception has been thrown by the target of an invocation.]
+   System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor) +0
+   System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments) +128
+   System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture) +146
+   MemeGenerator.DB.TimedProxy`1.TryInvokeMember(InvokeMemberBinder binder, Object[] args, Object&amp; result) in F:\Eff\Development\Code\Work\MemeGenerator\MemeGenerator8\MemeGenerator.DB\Performance\TimedProxy.cs:88
+   CallSite.Target(Closure , CallSite , Object , Int32 , VimageQuality , Nullable`1 ) +331
+   ActLike_IMgImagesStore_f24b82b3d7b445eb9b7e919a6cbed722.GetVideoFile(Int32 mgImageID, VimageQuality quality, Nullable`1 type) +543
+   MemeGenerator.ImageRendering.GetCaptionedImage(Int32 imageID, String text0, String text1, Nullable`1 width, Nullable`1 height) in F:\Eff\Development\Code\Work\MemeGenerator\MemeGenerator8\MemeGenerator.DB\Render\ImageRendering.cs:148
+   MemeGenerator.ImageRendering.GetRenderedInstance(Object instance, Nullable`1 quality, Nullable`1 type, Nullable`1 width, Nullable`1 height) in F:\Eff\Development\Code\Work\MemeGenerator\MemeGenerator8\MemeGenerator.DB\Render\ImageRendering.cs:73
+   MemeGenerator.Web.Images.Controllers.InstanceController.Details(Int32 instanceID, Nullable`1 width, Nullable`1 height, String extension, String filename, Nullable`1 quality) in F:\Eff\Development\Code\Work\MemeGenerator\MemeGenerator8\MemeGenerator.Web.Images\Controllers\InstanceController.cs:52
+   lambda_method(Closure , ControllerBase , Object[] ) +443
+   System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters) +229
+   System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters) +35
+   System.Web.Mvc.Async.AsyncControllerActionInvoker.&lt;BeginInvokeSynchronousActionMethod&gt;b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState) +39
+   System.Web.Mvc.Async.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult) +71
+   System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult) +42
+   System.Web.Mvc.Async.AsyncInvocationWithFilters.&lt;InvokeActionMethodFilterAsynchronouslyRecursive&gt;b__3d() +72
+   System.Web.Mvc.Async.&lt;&gt;c__DisplayClass46.&lt;InvokeActionMethodFilterAsynchronouslyRecursive&gt;b__3f() +385
+   System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult) +42
+   System.Web.Mvc.Async.&lt;&gt;c__DisplayClass2b.&lt;BeginInvokeAction&gt;b__1c() +38
+   System.Web.Mvc.Async.&lt;&gt;c__DisplayClass21.&lt;BeginInvokeAction&gt;b__1e(IAsyncResult asyncResult) +185
+   System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult) +38
+   System.Web.Mvc.Controller.&lt;BeginExecuteCore&gt;b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState) +29
+   System.Web.Mvc.Async.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult) +67
+   System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult) +52
+   System.Web.Mvc.Async.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult) +36
+   System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult) +38
+   System.Web.Mvc.MvcHandler.&lt;BeginProcessRequest&gt;b__5(IAsyncResult asyncResult, ProcessRequestState innerState) +43
+   System.Web.Mvc.Async.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult) +67
+   System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult) +38
+   System.Web.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute() +656
+   System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step) +215
+   System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean&amp; completedSynchronously) +131
+</pre></code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+            <hr width=100% size=1 color=silver>
+
+            <b>Version Information:</b>&nbsp;Microsoft .NET Framework Version:4.0.30319; ASP.NET Version:4.7.2623.0
+
+            </font>
+
+    </body>
+</html>
+<!-- 
+[IOException]: There is not enough space on the disk.
+
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.Directory.InternalCreateDirectory(String fullPath, String path, Object dirSecurityObj, Boolean checkHost)
+   at System.IO.Directory.InternalCreateDirectoryHelper(String path, Boolean checkHost)
+   at ItsuvNet.TempFiles.GetTempFolderName(String baseFolder) in F:\Eff\Development\Code\Work\ItsuvNet\ItsuvNet.Core\TempFiles.cs:line 17
+   at ItsuvNet.TempFiles.GetTempFileName(String baseFolder, String extension) in F:\Eff\Development\Code\Work\ItsuvNet\ItsuvNet.Core\TempFiles.cs:line 26
+   at MemeGenerator.VideoFile.From(Byte[] videoFileBytes, Nullable`1 type, VimageQuality quality) in F:\Eff\Development\Code\Work\MemeGenerator\MemeGenerator8\MemeGenerator.DB\Render\VideoFile.cs:line 75
+[TargetInvocationException]: Exception has been thrown by the target of an invocation.
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at MemeGenerator.DB.TimedProxy`1.TryInvokeMember(InvokeMemberBinder binder, Object[] args, Object& result) in F:\Eff\Development\Code\Work\MemeGenerator\MemeGenerator8\MemeGenerator.DB\Performance\TimedProxy.cs:line 79
+   at CallSite.Target(Closure , CallSite , Object , Int32 , VimageQuality , VimageType )
+   at ActLike_IImageFileStore_cd5593aca4f840d49c71dce53cf98273.Read(Int32 imageID, VimageQuality quality, VimageType type)
+   at MemeGenerator.DB.Direct.MgImagesStore.GetVideoFile(Int32 mgImageID, VimageQuality quality, Nullable`1 type) in F:\Eff\Development\Code\Work\MemeGenerator\MemeGenerator8\MemeGenerator.DB\Direct\MgImagesStore.cs:line 209
+[TargetInvocationException]: Exception has been thrown by the target of an invocation.
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at MemeGenerator.DB.TimedProxy`1.TryInvokeMember(InvokeMemberBinder binder, Object[] args, Object& result) in F:\Eff\Development\Code\Work\MemeGenerator\MemeGenerator8\MemeGenerator.DB\Performance\TimedProxy.cs:line 88
+   at CallSite.Target(Closure , CallSite , Object , Int32 , VimageQuality , Nullable`1 )
+   at ActLike_IMgImagesStore_f24b82b3d7b445eb9b7e919a6cbed722.GetVideoFile(Int32 mgImageID, VimageQuality quality, Nullable`1 type)
+   at MemeGenerator.ImageRendering.GetCaptionedImage(Int32 imageID, String text0, String text1, Nullable`1 width, Nullable`1 height) in F:\Eff\Development\Code\Work\MemeGenerator\MemeGenerator8\MemeGenerator.DB\Render\ImageRendering.cs:line 148
+   at MemeGenerator.ImageRendering.GetRenderedInstance(Object instance, Nullable`1 quality, Nullable`1 type, Nullable`1 width, Nullable`1 height) in F:\Eff\Development\Code\Work\MemeGenerator\MemeGenerator8\MemeGenerator.DB\Render\ImageRendering.cs:line 73
+   at MemeGenerator.Web.Images.Controllers.InstanceController.Details(Int32 instanceID, Nullable`1 width, Nullable`1 height, String extension, String filename, Nullable`1 quality) in F:\Eff\Development\Code\Work\MemeGenerator\MemeGenerator8\MemeGenerator.Web.Images\Controllers\InstanceController.cs:line 52
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+--><!-- 
+This error page might contain sensitive information because ASP.NET is configured to show verbose error messages using &lt;customErrors mode="Off"/&gt;. Consider using &lt;customErrors mode="On"/&gt; or &lt;customErrors mode="RemoteOnly"/&gt; in production environments.-->
