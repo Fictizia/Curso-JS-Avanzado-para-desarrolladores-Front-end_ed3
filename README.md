@@ -64,6 +64,7 @@ Teoría | Recursos | Descripción
 [Clase 14](teoria/clase14.md) | [Clase 14](recursos/clase14.md) | HTML5: LocalStorage y contentEditor
 [Clase 15](teoria/clase15.md) | [Clase 15](recursos/clase15.md) | HTML5: Offline y WebWorkers
 [Clase 16](teoria/clase16.md) | [Clase 16](recursos/clase16.md) | Patrones de JS I: Antipatrones
+[Clase 17](teoria/clase17.md) | [Clase 17](recursos/clase17.md) | Patrones de JS II: Metaprogramación y Patrones
 
 
 
