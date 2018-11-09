@@ -127,3 +127,65 @@
 - http://www.thenetworking.com/wp-content/uploads/2017/10/google-maps-logo-openA.png 
 
 ### clase14
+
+
+
+### clase15
+
+- https://i.ytimg.com/vi/exBNB5njcNA/maxresdefault.jpg 
+- https://az813057.vo.msecnd.net/testdrive/ieblog/2011/Jul/01_WebWorkersinIE10BackgroundJavaScriptMakesWebAppsFaster_2.png 
+- https://media0.giphy.com/media/l3uGKbsTIyhyM/giphy.gif 
+
+
+### clase16
+
+- https://pbs.twimg.com/media/C9jUzCQXgAA6S4p.jpg 
+- https://i.ytimg.com/vi/FooS1nB3kuw/maxresdefault.jpg 
+- https://comunidad.iebschool.com/metodologiasagiles/files/2015/05/metodologias-agiles.jpg 
+- https://media.makeameme.org/created/brace-yourself-project.jpg 
+- https://memegenerator.net/img/instances/61734818/guys-code-this-software-design-done.jpg 
+- https://pbs.twimg.com/media/Db3pazRWsAE6KMC.jpg 
+- https://slimfit.khanhicetea.com/images/solve-any-problem-meme.jpg 
+- https://pbs.twimg.com/media/DfGdI0CX4AEMLA3.jpg 
+- https://memegenerator.net/img/instances/61666374/organization.jpg 
+- https://i.kym-cdn.com/photos/images/newsfeed/001/401/347/312.jpg 
+- https://res.cloudinary.com/practicaldev/image/fetch/s--3L0blRat--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://cdn-images-1.medium.com/max/2000/1%2AYkPBKSgLzs_gq1X13TcyaQ.jpeg 
+
+
+### clase17
+
+- https://bids.berkeley.edu/sites/default/files/kyle_blog_pic.png 
+- https://r3dux.org/wp-content/uploads/2011/06/DesignPatternRelationships.png 
+- https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/creational/abstract_factory/abstract_factory.png 
+- https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/creational/builder/builder.png 
+- https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/creational/builder/builder_seq.png 
+- https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/creational/factory/factory.png 
+- https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/creational/prototype/prototype.png 
+- https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/creational/singleton/singleton.png 
+- https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/structural/adapter/adapter.png 
+- https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/structural/bridge/bridge.png 
+- https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/structural/composite/composite.png 
+- https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/structural/decorator/decorator.png 
+- https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/structural/facade/facade.png 
+- https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/structural/flyweight/flyweight.png 
+- https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/structural/proxy/proxy.png 
+- https://upload.wikimedia.org/wikipedia/commons/7/73/Module-software-design-pattern.png 
+- https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/behavioral/chain_of_responsibility/chain_of_responsibility.png 
+- https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/behavioral/command/command.png 
+- https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/behavioral/command/command_seq.png 
+- https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/behavioral/interpreter/interpreter.png 
+- https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/behavioral/iterator/iterator.png 
+- https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/behavioral/mediator/mediator.png 
+- https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/behavioral/memento/memento.png 
+- https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/behavioral/memento/memento_seq.png 
+- https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/behavioral/observer/observer.png 
+- https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/behavioral/observer/observer_seq.png 
+- https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/behavioral/state/state.png 
+- https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/behavioral/strategy/strategy.png 
+- https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/behavioral/template_method/template_method.png 
+- https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/behavioral/visitor/visitor.png 
+- https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/behavioral/visitor/visitor_seq.png 
+- http://i.imgur.com/bgqt2er.png 
+- http://growinguu.blogs.uua.org/files/2016/10/calming-manatee-meme.png 
+- https://media.giphy.com/media/KI9oNS4JBemyI/giphy.gif 
+

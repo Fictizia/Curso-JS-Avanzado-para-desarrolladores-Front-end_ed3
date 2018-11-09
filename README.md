@@ -62,6 +62,9 @@ Teoría | Recursos | Descripción
 [Clase 12](teoria/clase12.md) | [Clase 12](recursos/clase12.md) | Firebase I: Autenticación y Hosting
 [Clase 13](teoria/clase13.md) | [Clase 13](recursos/clase13.md) | HTML5: Geo y mapas
 [Clase 14](teoria/clase14.md) | [Clase 14](recursos/clase14.md) | HTML5: LocalStorage y contentEditor
+[Clase 15](teoria/clase15.md) | [Clase 15](recursos/clase15.md) | HTML5: Offline y WebWorkers
+[Clase 16](teoria/clase16.md) | [Clase 16](recursos/clase16.md) | Patrones de JS I: Antipatrones
+[Clase 17](teoria/clase17.md) | [Clase 17](recursos/clase17.md) | Patrones de JS II: Metaprogramación y Patrones
 
 
 
