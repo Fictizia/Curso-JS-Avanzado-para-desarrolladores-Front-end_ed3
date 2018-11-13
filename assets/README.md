@@ -189,3 +189,20 @@
 - http://growinguu.blogs.uua.org/files/2016/10/calming-manatee-meme.png 
 - https://media.giphy.com/media/KI9oNS4JBemyI/giphy.gif 
 
+### clase18
+
+- https://cdn.shopify.com/s/files/1/0185/4636/products/TimCaballero-FINAL_2000x.jpg?v=1447711497 
+- https://kieranocallaghan.files.wordpress.com/2016/10/solid.jpg?w=490 
+- http://www.polarinertia.com/june09/images/roadshow/Roadshow-06.jpg 
+- https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/ModelViewControllerDiagram_es.svg/600px-ModelViewControllerDiagram_es.svg.png 
+- https://patterns.florian-rappl.de/pictures/mvc.png 
+- https://manojjaggavarapu.files.wordpress.com/2012/05/mvcmodel2.png 
+- http://jwma.sourceforge.net/old/images/jwma_mvc2.png 
+- https://patterns.florian-rappl.de/pictures/mvp.png 
+- https://manojjaggavarapu.files.wordpress.com/2012/05/mvp-passiveview.png 
+- https://manojjaggavarapu.files.wordpress.com/2012/05/mvp-supervisingcontroller.png 
+- https://manojjaggavarapu.files.wordpress.com/2012/05/presentationmodel.png 
+- https://patterns.florian-rappl.de/pictures/mvvm.png 
+- https://patterns.florian-rappl.de/pictures/mva.png 
+- https://patterns.florian-rappl.de/pictures/pca.png 
+- https://alexatnet.com/content/images/2017/04/diagram.png 
