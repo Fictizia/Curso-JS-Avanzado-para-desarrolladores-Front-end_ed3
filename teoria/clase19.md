@@ -1859,7 +1859,7 @@ console.log('path from 6 to 1:', graph.pathFromTo(6, 1)); // => 6-4-3-2-1
 
 ### Ejercicios
 
-![IMG](../assets/clase19/e564415a-0e37-443a-9a30-dd18a47adf9e.html)
+![IMG](../assets/clase19/e564415a-0e37-443a-9a30-dd18a47adf9e.jpg)
 
 **1 -** ¡Nuestro primer algoritmo de encriptación!
 
