@@ -189,3 +189,46 @@
 - http://growinguu.blogs.uua.org/files/2016/10/calming-manatee-meme.png 
 - https://media.giphy.com/media/KI9oNS4JBemyI/giphy.gif 
 
+### clase18
+
+- https://cdn.shopify.com/s/files/1/0185/4636/products/TimCaballero-FINAL_2000x.jpg?v=1447711497 
+- https://kieranocallaghan.files.wordpress.com/2016/10/solid.jpg?w=490 
+- http://www.polarinertia.com/june09/images/roadshow/Roadshow-06.jpg 
+- https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/ModelViewControllerDiagram_es.svg/600px-ModelViewControllerDiagram_es.svg.png 
+- https://patterns.florian-rappl.de/pictures/mvc.png 
+- https://manojjaggavarapu.files.wordpress.com/2012/05/mvcmodel2.png 
+- http://jwma.sourceforge.net/old/images/jwma_mvc2.png 
+- https://patterns.florian-rappl.de/pictures/mvp.png 
+- https://manojjaggavarapu.files.wordpress.com/2012/05/mvp-passiveview.png 
+- https://manojjaggavarapu.files.wordpress.com/2012/05/mvp-supervisingcontroller.png 
+- https://manojjaggavarapu.files.wordpress.com/2012/05/presentationmodel.png 
+- https://patterns.florian-rappl.de/pictures/mvvm.png 
+- https://patterns.florian-rappl.de/pictures/mva.png 
+- https://patterns.florian-rappl.de/pictures/pca.png 
+- https://alexatnet.com/content/images/2017/04/diagram.png 
+
+### clase19
+
+- http://pdm.com.co/BlogPDM/wp-content/uploads/2015/11/algoritmo-amistad-900x900.jpg?x81790 
+- http://blog.benoitvallon.com/img/2016-01-11-data-structures-in-javascript/big-o-complexity.png 
+- https://wikimedia.org/api/rest_v1/media/math/render/svg/4df2167dc6e8059c370d39cfd197681b580c98a5 
+- https://static.vix.com/es/sites/default/files/styles/large/public/btg/curiosidades.batanga.com/files/Que-es-la-sucesion-de-Fibonacci-1.jpg?itok=1hCZvY7C 
+- https://wikimedia.org/api/rest_v1/media/math/render/svg/b446e59a2a98503051315bddf6938201ab6771ee 
+- https://wikimedia.org/api/rest_v1/media/math/render/svg/b446e59a2a98503051315bddf6938201ab6771ee 
+- https://media1.giphy.com/media/3o6Yg4GUVgIUg3bf7W/giphy.gif 
+- https://media0.giphy.com/media/3o8dFn5CXJlCV9ZEsg/giphy.gif 
+- https://media0.giphy.com/media/AXorq76Tg3Vte/giphy.gif 
+- https://quotefancy.com/media/wallpaper/1600x900/1751004-Linus-Torvalds-Quote-Bad-programmers-worry-about-the-code-Good.jpg 
+- https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Array1.svg/300px-Array1.svg.png 
+- https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Hash_table-es.svg/350px-Hash_table-es.svg.png 
+- https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Circularly-linked-list.svg/350px-Circularly-linked-list.svg.png 
+- https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Doubly-linked-list.svg/610px-Doubly-linked-list.svg.png 
+- https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Pila.svg/200px-Pila.svg.png 
+- https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Cola.svg/200px-Cola.svg.png 
+- https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Binary_tree.svg/192px-Binary_tree.svg.png 
+- https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Binary_search_tree.svg/280px-Binary_search_tree.svg.png 
+- https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Trie_example.svg/250px-Trie_example.svg.png 
+- https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/6n-graf.svg/200px-6n-graf.svg.png 
+- http://blog.benoitvallon.com/img/2016-01-11-data-structures-in-javascript/big-o.png 
+- https://js.tensorflow.org/images/TF_JS_lockup.png 
+- http://image.toutlecine.com/photos/a/s/t/asterix-et-obelix-contre-ii27-g.jpg 
