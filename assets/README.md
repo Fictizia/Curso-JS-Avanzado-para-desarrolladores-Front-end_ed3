@@ -232,3 +232,8 @@
 - http://blog.benoitvallon.com/img/2016-01-11-data-structures-in-javascript/big-o.png 
 - https://js.tensorflow.org/images/TF_JS_lockup.png 
 - http://image.toutlecine.com/photos/a/s/t/asterix-et-obelix-contre-ii27-g.jpg 
+
+### clase20
+
+- http://imgs.xkcd.com/comics/regular_expressions.png "RegEx save the day" 
+- http://i.imgur.com/7rV4c56.jpg "email regex" 
