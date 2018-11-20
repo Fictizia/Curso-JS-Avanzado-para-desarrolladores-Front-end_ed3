@@ -2,8 +2,10 @@
     <head>
         <!-- 
             Comprobar con regex:
-            Válidos: 12345678-A, 11223344A,
-            No válidos: A11223344, 1234567K
+            Validos:
+            demo@demo.com, demo_demo@demo.com.ar, demo-demo12312@sub.dom.com.ar, 
+            No validos:
+            demo@novalido, novalido>@demo.com, demo@novalido-.com, demo@-novalido.com 
         -->
 
         
@@ -18,8 +20,8 @@
             document.getElementById("emailValidator").addEventListener("click", checkEmail);
             function checkEmail() {
                 var emailText = email.value;
-                const coincidencias = /([\d\w\-]+)\@([\d\w]+)(\.[a-zA-Z]+)+/.test(emailText);
-                console.log(`Is this email valid ${emailText}? ${coincidencias}`);
+                const isValid = /([\d\w\-]+)\@([\d\w]+)(\.[a-zA-Z]+)+/.test(emailText);
+                console.log(`Is this email valid ${emailText}? ${isValid}`);
             }
         </script>
     

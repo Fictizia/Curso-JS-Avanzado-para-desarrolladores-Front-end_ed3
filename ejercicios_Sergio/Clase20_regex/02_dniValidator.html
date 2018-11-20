@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <!-- 
+            Comprobar con regex:
+            DNI válidos: 12345678-A, 11223344A,
+            DNI no válidos: A11223344, 1234567K
+
+            NIE válidos: X-1234567-A, X1234567A, Z1234567M
+            NIE no válidos: X-1233456, 1234567
+        -->
+
+        
+    </head>
+    <body>
+        <form>
+            <input type="text" id="dni">
+            <input type="button" id="dniValidator" value="Check DNI">
+        </form>
+
+        <form>
+            <input type="text" id="nie">
+            <input type="button" id="nieValidator" value="Check NIE">
+        </form>
+
+        <script>
+            document.getElementById("dniValidator").addEventListener("click", checkDNI);
+            document.getElementById("nieValidator").addEventListener("click", checkNIE);
+            function checkDNI() {
+                var dniText = dni.value;
+                const isValid = /\d{8}-*(\w$)/.test(dniText);
+                console.log(`Is this DNI valid ${dniText}? ${isValid}`);
+            }
+            function checkNIE() {
+                var nieText = nie.value;
+                const isValid = /\w-*\d{7}-*(\w$)/.test(nieText);
+                console.log(`Is this NIE valid ${nieText}? ${isValid}`);
+            }
+        </script>
+    
+
+    </body>
+</html>
