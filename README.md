@@ -67,7 +67,12 @@ Teoría | Recursos | Descripción
 [Clase 17](teoria/clase17.md) | [Clase 17](recursos/clase17.md) | Patrones de JS II: Metaprogramación y Patrones
 [Clase 18](teoria/clase18.md) | [Clase 18](recursos/clase18.md) | Arquitectura en JS: Presentation Patters, MV* (MVC, MVVM, etc...)
 [Clase 19](teoria/clase19.md) | [Clase 19](recursos/clase19.md) | Patrones de JS III: Algoritmia y Estructuras de datos
+<<<<<<< HEAD
 [Clase 20](teoria/clase20.md) | [Clase 20](recursos/clase20.md) | Expresiones Regulares (Regex)
+=======
+
+
+>>>>>>> 2660b0e5ee449f86e36f0e3a14029490a567acdb
 
 Temario
 =================
