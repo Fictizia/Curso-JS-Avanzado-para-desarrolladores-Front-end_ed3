@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <!-- 
+            Comprobar con regex:
+            Válidos: 12345678-A, 11223344A,
+            No válidos: A11223344, 1234567K
+        -->
+
+        
+    </head>
+    <body>
+        <form>
+            <input type="text" id="email">
+            <input type="button" id="emailValidator" value="Check Email">
+        </form>
+
+        <script>
+            document.getElementById("emailValidator").addEventListener("click", checkEmail);
+            function checkEmail() {
+                var emailText = email.value;
+                const coincidencias = /([\d\w\-]+)\@([\d\w]+)(\.[a-zA-Z]+)+/.test(emailText);
+                console.log(`Is this email valid ${emailText}? ${coincidencias}`);
+            }
+        </script>
+    
+
+    </body>
+</html>
