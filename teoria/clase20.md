@@ -12,7 +12,7 @@
 
 ### Expresiones Regulares
 
-![Regular Expression XKCD](../assets/clase20/ead1dd5d-7380-4780-8069-684d0efd41b8.html)
+![Regular Expression XKCD](../assets/clase20/ead1dd5d-7380-4780-8069-684d0efd41b8.png)
 <sup>http://xkcd.com/208/</sup>
 
 
