@@ -36,6 +36,7 @@
 - **No se limita solo a servidores HTTP**
 
 **Librerías interesantes**
+INTERESANTE: LIBRERÍAS MÁS INTERESANTES DE NODE POR TEMAS:
 - [awesome Node.js](https://github.com/sindresorhus/awesome-nodejs/)
 - [Grunt](http://gruntjs.com/)
 - [Gulp](http://gulpjs.com/)
@@ -45,6 +46,8 @@
 - [Apache Cordova](http://cordova.apache.org/)
 - [Async](https://www.npmjs.com/package/async)
 - [Chalk](https://www.npmjs.com/package/chalk)
+
+PARA INSTALAR EN ARDUINO
 - [J5](http://johnny-five.io/)
 - [GraphicsMagick](http://aheckmann.github.io/gm/)
 - [Marked](https://github.com/chjj/marked)
@@ -56,6 +59,8 @@
 - [Cheerio](https://github.com/cheeriojs/cheerio)
 - [X-ray](https://github.com/lapwinglabs/x-ray)
 - [Bower](https://bower.io/)
+
+Para levantar servidor automáticamente cuando cae.
 - [PM2](http://pm2.keymetrics.io/)
 - [Electron](http://electron.atom.io/)
 - [Yeoman](http://yeoman.io/)
@@ -584,6 +589,8 @@ http.get({ host: url }, resOrigen => {
 **Recursos**
 - [Objeto Request](https://nodejs.org/api/http.html#http_http_request_options_callback)
 - [Objeto Response](https://nodejs.org/api/http.html#http_class_http_serverresponse)
+
+GUÍA MU BIENA DE GESTIÓN HTTP
 - [Guide - Anatomy of an HTTP Transaction](https://nodejs.org/en/docs/guides/anatomy-of-an-http-transaction/)
 - [5 Ways to Make HTTP Requests in Node.js](https://www.twilio.com/blog/2017/08/http-requests-in-node-js.html)
 - [All about HTTP in node.js and 3 best ways for handling HTTP/HTTPS requests](https://codeburst.io/all-about-http-in-node-js-and-3-best-ways-for-http-requests-in-web-development-6e5b6876c3a4)
