@@ -68,6 +68,10 @@ Teoría | Recursos | Descripción
 [Clase 18](teoria/clase18.md) | [Clase 18](recursos/clase18.md) | Arquitectura en JS: Presentation Patters, MV* (MVC, MVVM, etc...)
 [Clase 19](teoria/clase19.md) | [Clase 19](recursos/clase19.md) | Patrones de JS III: Algoritmia y Estructuras de datos
 [Clase 20](teoria/clase20.md) | [Clase 20](recursos/clase20.md) | Expresiones Regulares (Regex)
+[Clase 21](teoria/clase21.md) | [Clase 21](recursos/clase21.md) | Nodejs: Funcionamiento, ecosistema, Modularización y Librerías Core
+
+
+
 
 Temario
 =================
