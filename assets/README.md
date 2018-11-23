@@ -233,10 +233,31 @@
 - https://js.tensorflow.org/images/TF_JS_lockup.png 
 - http://image.toutlecine.com/photos/a/s/t/asterix-et-obelix-contre-ii27-g.jpg 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 75b852bb3a57521cadad4e3b0e32054ca7e0d851
 
 ### clase20
 
 - http://imgs.xkcd.com/comics/regular_expressions.png "RegEx save the day" 
 - http://i.imgur.com/7rV4c56.jpg "email regex" 
+<<<<<<< HEAD
 =======
 >>>>>>> 2660b0e5ee449f86e36f0e3a14029490a567acdb
+=======
+
+### clase21
+
+- https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/590px-Node.js_logo.svg.png 
+- https://servercheck.in/sites/servercheck.in/files/node-drupal-queue-comparison.jpg 
+- https://strongloop.com/wp-content/uploads/2015/06/iovsn.jpg.pagespeed.ce.SGbwroO3EK.jpg 
+- https://dka575ofm4ao0.cloudfront.net/pages-transactional_logos/retina/8389/vz1XuNqHTyfO4YsqI3f2 
+- https://nodejs.org/static/images/logos/nodejs.png 
+- https://raw.githubusercontent.com/nodejs/LTS/master/schedule.png 
+- https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAhTAAAAJGEzYjdjNTFlLTI1MjQtNGFjMS04YTZkLWM2ZmU0ODgzOTNjZA.png 
+- https://cdn-images-1.medium.com/max/800/1*4LsfQ0ZbZkapHDR8eTYp4g.png 
+- https://strongloop.com/wp-content/uploads/2014/01/threading_java.png 
+- https://strongloop.com/wp-content/uploads/2014/05/threading_node.png 
+- https://www.safaribooksonline.com/library/view/nodejs-the-right/9781941222355/images/eventloop.png 
+- https://pongandbeyond.files.wordpress.com/2011/04/img_2019.jpg 
+>>>>>>> 75b852bb3a57521cadad4e3b0e32054ca7e0d851
