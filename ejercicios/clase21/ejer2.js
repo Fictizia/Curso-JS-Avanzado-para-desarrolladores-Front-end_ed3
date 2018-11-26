@@ -1,8 +1,9 @@
+"use strict";
 const process = require('process');
 const request = require('https').request;
 
 function killApp(msg){
-  process.stdout.write(`\r\n${msg}, saliendo Y(^.^)Y\r\n`)
+  process.stdout.write(`\r\n${msg}, saliendo Y(^.^)Y\r\n`);
   process.exit(0);
 }
 function header({generated,title,status,count}){
@@ -16,7 +17,7 @@ function header({generated,title,status,count}){
      ---------------------     
   ${new Date(generated).toLocaleString('es')}
   *****************************
-  `)
+  `);
 }
 function body({title,time,mag,status,type,place,url,detail}, {coordinates}){
   process.stdout.write(`==============================
@@ -29,7 +30,7 @@ function body({title,time,mag,status,type,place,url,detail}, {coordinates}){
   Coordenadas: ${coordinates[0]}, ${coordinates[1]}
   Info: ${url}
   Detalles: ${detail}
-  ==============================`)
+  ==============================`);
 }
 function searchHearquakes(magnitude){
   const date = Date.now();
@@ -49,14 +50,14 @@ function searchHearquakes(magnitude){
         data.features.forEach(feature => body(feature.properties, feature.geometry));
     });
 
-    res.on('error',killApp)
+    res.on('error',killApp);
   });
 
   req.end();
 }
 const args = process.argv;
 if(args.length <= 2){
-  killApp("no hay datos suficiente para realizar petición")
+  killApp("no hay datos suficiente para realizar petición");
 }
 if(!isNaN(args[2]) && (args[2] < 0 || args[2] > 10)){
   killApp("Valores erroneos");
