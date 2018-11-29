@@ -1773,6 +1773,7 @@ Gulp:
 
 ### NPM Scripts: Estrategias y vitaminas
 
+INTERESATE:
 - No conoces a [Ashley Williams](https://github.com/ashleygwilliams) ni has visto ["You Don't Know npm"](https://www.youtube.com/watch?v=l_F9xqIdkzE). [Slides](https://ashleygwilliams.github.io/fwdays-2017/#1)
 - Existen [convenciones](https://docs.npmjs.com/misc/scripts) en el `package.json` que solemos ignorar como `preinstall`, `install`, `postinstall`, `uninstall`, `test`, `start`, etc...
 - Puedes pasarte variables de entorno en los comandos `NODE_ENV=production server.js`
