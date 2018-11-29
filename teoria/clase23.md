@@ -38,6 +38,7 @@
 - [Upsource](https://www.jetbrains.com/upsource/)
 - [Crucible](https://es.atlassian.com/software/crucible)
 - [Gerrit](https://www.gerritcodereview.com/)
+INTERESANTE:
 - [Github Code Review](https://github.com/features/code-review/)
 
 ### Pair coding
@@ -118,6 +119,8 @@
 - [Pruebas alpha (Alpha Testing)](https://es.wikipedia.org/wiki/Pruebas_alpha)
 - [Pruebas beta (Beta Testing)](https://es.wikipedia.org/wiki/Pruebas_beta)
 - [Pruebas de aceptación (Acceptance Testing)](https://es.wikipedia.org/wiki/Pruebas_de_aceptaci%C3%B3n_(inform%C3%A1tica))
+
+MUY INTERESANTE PARA LIBRERÍAS, PUEDE CONTROLAR INCLUSO SEMANTIC VERSIONING
 - [Pruebas de regresión (Regression testing)](https://es.wikipedia.org/wiki/Pruebas_de_regresi%C3%B3n)
 - [Pruebas de compatibilidad](https://es.wikipedia.org/wiki/Pruebas_de_compatibilidad)
 - [Pruebas de Accesibilidad (Accessibility testing)](https://en.wikipedia.org/wiki/Accessibility)
@@ -137,11 +140,11 @@
 
 - Unit Testing
 - Integration testing
-- End-To-End Testing (e2e)
-- Alpha & Beta Testing
+- End-To-End Testing (e2e) (PRUEBAS SOBRE EL NAVEGADOR)
+- Alpha & Beta Testing (CON USUARIOS DE VERDAD)
 - Accessibility testing
 - Security Testing
-- Stress Testing & Load Testing
+- Stress Testing & Load Testing (ESCALABILIDAD Y VER CUANTAS LLAMADAS SOPORTA LA APP)
 - A/B testing
 
 
@@ -316,6 +319,8 @@ assert.equal({ a: { b: 1 } }, { a: { b: 1 } });
 - [Jasmine](http://jasmine.github.io/) - Simple JavaScript testing framework for browsers and node.js
 - [Intern](https://theintern.github.io/) - Intern. Software testing for humans.
 - [Chai](http://chaijs.com/)- BDD / TDD assertion framework for node.js and the browser that can be paired with any testing framework.
+
+MUY BUEN RUNNER DE TESTS, VAN EN PARALELO, OSN MUCHO MÁS RAPIDOS
 - [Ava](https://github.com/avajs/ava) - 🚀 Futuristic JavaScript test runner
 
 **BDD**
@@ -612,6 +617,7 @@ it('makes a GET request for todo items', function () {
 ![IMG](../assets/clase23/8876b794-3958-45d2-8fd8-d1bdbea78b36.jpeg)
 
 **Recursos**
+MUY INTERESANTE
 - [A guide to unit testing in JavaScript](https://github.com/mawrkus/js-unit-testing-guide)
 - [How Netflix does A/B Testing](https://uxdesign.cc/how-netflix-does-a-b-testing-87df9f9bf57c)
 - [An Overview of JavaScript Testing in 2018](https://medium.com/welldone-software/an-overview-of-javascript-testing-in-2018-f68950900bc3)
@@ -674,6 +680,8 @@ it('makes a GET request for todo items', function () {
 - [Lambdium](https://github.com/smithclay/lambdium) - headless chrome + selenium webdriver in AWS Lambda using the serverless application model
 - [GhostJS](https://github.com/KevinGrandon/ghostjs) - ghostjs provides modern UI testing with async functions
 - [CasperJS](http://casperjs.org/) - Navigation scripting & testing for PhantomJS and SlimerJS
+
+MUY BUENO OPENSOURCE TESTING END TO END MUY POTENTE
 - [Cypress.io](https://github.com/cypress-io/cypress) - Fast, easy and reliable testing for anything that runs in a browser.
 
 
@@ -702,7 +710,11 @@ it('makes a GET request for todo items', function () {
 - [Frisby](http://frisbyjs.com/) - The Easiest REST API Testing Framework Out There
 - [Gemini](https://gemini-testing.github.io/) - Gemini is a utility for regression testing the visual appearance of web pages.
 - [Gremlins.js](https://github.com/marmelab/gremlins.js) - Monkey testing library for web apps and Node.js
+
+PARA TESTEAR EMAILS
 - [Mailosaur](https://github.com/mailosaur/mailosaur-node) - Mailosaur Node.js Client Library
+
+PARA TESTEAR LO VISUAL
 - [Differencify](https://github.com/NimaSoroush/differencify) - Differencify is a library for visual regression testing
 - [CodeceptJS](http://codecept.io/) - Modern era acceptance testing for Nodejs
 
@@ -754,6 +766,8 @@ suite.add('RegExp#test', () => {
 
 **Librerías**
 - [sikulix](http://www.sikulix.com/) 
+
+AUTOMATIZA COSAS EN EL ESCRITORIO
 - [robotjs](https://robotjs.io/)
 
 
