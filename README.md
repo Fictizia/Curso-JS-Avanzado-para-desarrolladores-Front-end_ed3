@@ -70,7 +70,7 @@ Teoría | Recursos | Descripción
 [Clase 20](teoria/clase20.md) | [Clase 20](recursos/clase20.md) | Expresiones Regulares (Regex)
 [Clase 21](teoria/clase21.md) | [Clase 21](recursos/clase21.md) | Nodejs: Funcionamiento, ecosistema, Modularización y Librerías Core
 [Clase 22](teoria/clase22.md) | [Clase 22](recursos/clase22.md) | NPM, YARN, Bower, Grunt, Gulp & Npm Scripts
-
+[Clase 23](teoria/clase23.md) | [Clase 23](recursos/clase23.md) | Testing & Quality Tools
 
 
 Temario

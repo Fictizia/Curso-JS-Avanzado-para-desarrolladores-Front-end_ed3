@@ -269,3 +269,24 @@
 - http://frontendlabs.io/wp-content/uploads/2014/08/grunt-file-manipulation.png 
 - http://frontendlabs.io/wp-content/uploads/2014/08/gulp-file-manipulation.png 
 - https://raw.githubusercontent.com/samueleaton/design/master/npm-scripts-black.png 
+
+### clase23
+
+- https://cdn-images-1.medium.com/max/1200/1*6z2rS247RKJJxdWDetYm2Q.png 
+- https://rahulpnath.com/images/codereview_friendly.png 
+- http://www.commitstrip.com/wp-content/uploads/2012/08/Strips-Pair-coding-550-finalenglish.jpg 
+- http://www.edu-art.in/wp-content/uploads/2017/12/5.jpg 
+- https://www.testbytes.net/wp-content/uploads/2018/06/Brace-YourselfSoftware-Testing-Memes-Are-Here-2.jpg 
+- https://upload.wikimedia.org/wikipedia/commons/0/0b/TDD_Global_Lifecycle.png 
+- https://martinfowler.com/bliki/images/testPyramid/test-pyramid.png 
+- http://ashleynolan.co.uk/assets/img/blog/tooling-survey/2015/q7.jpg 
+- http://krystianczaplicki.com/wp-content/uploads/2018/07/chrome-devtools.jpg 
+- https://antfroger.github.io/slides-javascript-unit-testing/images/qunit.png 
+- https://cdn-images-1.medium.com/max/2000/1*AjcpO5fXga08mo2AJU93uQ.png 
+- https://i2.wp.com/blog.fossasia.org/wp-content/uploads/2017/07/sinon.jpg?resize=592%2C266&ssl=1 
+- https://er1x.github.io/images/2015-06/i-have-no-idea-what-im-doing-dog.jpg 
+- https://cdn-images-1.medium.com/max/1600/1*UtZzMT32fRMnSN-HmgiSVQ.gif 
+- https://cdn-images-1.medium.com/fit/t/1600/480/1*wby6AkTf3SggijT3GSTu4w.png 
+- https://i.imgflip.com/1jz03k.jpg 
+- https://www.paulbarrs.com/wp-content/uploads/2017/09/devices.jpg 
+- https://i.ytimg.com/vi/fsF7enQY8uI/maxresdefault.jpg 
