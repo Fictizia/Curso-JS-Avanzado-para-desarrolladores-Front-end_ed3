@@ -290,3 +290,7 @@
 - https://i.imgflip.com/1jz03k.jpg 
 - https://www.paulbarrs.com/wp-content/uploads/2017/09/devices.jpg 
 - https://i.ytimg.com/vi/fsF7enQY8uI/maxresdefault.jpg 
+
+### clase24
+
+- https://i.giphy.com/15BuyagtKucHm.gif
