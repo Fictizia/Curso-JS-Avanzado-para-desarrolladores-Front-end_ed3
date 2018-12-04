@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Geolocation con Leaflet</title>
+        <link rel="stylesheet" href="https://npmcdn.com/leaflet@0.7.7/dist/leaflet.css" />
+        <style type="text/css">
+            #mapa {
+                width: 100%; 
+                height: 300px;
+                margin: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="mapa"></div>
+        <script src="https://npmcdn.com/leaflet@0.7.7/dist/leaflet.js"></script>
+        <script type="text/javascript">
+        ((() => {
+        
+                let map;
+        
+              function init() {
+                 map = new L.Map('mapa');
+                 L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                    attribution: '&copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors',
+                    maxZoom: 18
+                 }).addTo(map);
+                 map.attributionControl.setPrefix(''); // Don't show the 'Powered by Leaflet' text.
+        
+                 // map view before we get the location
+                 map.setView(new L.LatLng(51.505, -0.09), 13);
+              }
+        
+              function onLocationFound(e) {
+                 const radius = e.accuracy / 2;
+                 const location = e.latlng;
+                 L.marker(location).addTo(map)
+                 L.circle(location, radius).addTo(map);
+              }
+        
+              function onLocationError(e) {
+                 console.warn(e.message);
+              }
+        
+              function getLocationLeaflet() {
+                 map.on('locationfound', onLocationFound);
+                 map.on('locationerror', onLocationError);
+        
+                 map.locate({setView: true, maxZoom: 16});
+              }
+          
+          	  init()
+              getLocationLeaflet()
+        
+        }))();
+        </script>
+    </body>
+</html>
