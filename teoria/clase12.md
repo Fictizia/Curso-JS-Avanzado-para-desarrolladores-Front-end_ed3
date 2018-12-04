@@ -197,6 +197,6 @@ Objetivos:
 - Documentación:
   - [GitHub User Authentication](https://www.firebase.com/docs/web/guide/login/github.html)
 
-```javascript
-    // Tu solución
-```
+**Solución:**
+- [Firebase 2.x](http://codepen.io/ulisesgascon/pen/2b9ee3341e4e21ee3c0b32b247313858)
+- [Firebase 3.x](http://codepen.io/ulisesgascon/pen/11130424da2c833b7b8cc86a6c5034b8)
