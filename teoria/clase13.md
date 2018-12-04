@@ -528,6 +528,4 @@ function initMap() {
 - [Utiliza Google Maps con un API Token](https://developers.google.com/maps/documentation/javascript/get-api-key?hl=ES)
 - [Puedes utilizar Cluster de Google Maps](https://developers.google.com/maps/documentation/javascript/marker-clustering)
 
-```javascript
-    // Tu solución
-```
+[Solución](../OTROS/geoposition/transport_metro.html)
