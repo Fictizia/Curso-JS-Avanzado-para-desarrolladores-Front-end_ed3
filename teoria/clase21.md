@@ -1028,7 +1028,67 @@ console.log('Nota: Recuerda que los Eventos nos ayudan con la asincronía, ¿no?
 **1 -** Crea las rutas básicas para tener una página web clásica (¿Quienes somos? | ¿Donde Estamos? | ¿Que hacemos? | Contacto... etc...)
 
 ```javascript
-    // Tu solución
+/*
+import http from 'http';
+import process from 'process';
+import url from 'url';
+*/
+
+const http = require('http'),
+    process = require('process'),
+    url = require('url');
+
+http.createServer((req, res) => {
+const pathname = url.parse(req.url).pathname;
+const hola = '<h1>Bienvenido!!</h1>';
+
+if (pathname === '/') {
+  res.writeHead(200, {
+    'Content-Type': 'text/html'
+  });
+  res.end(hola);
+  
+} else if (pathname === '/quienes') {
+  res.writeHead(200, {
+    'Content-Type': 'text/html; charset=utf-8'
+  });
+  res.end(`${hola}Somos una empresa que usa <b>la ñ y otros caracteres especiales! </b>....`);
+
+} else if (pathname === '/donde') {
+  res.writeHead(200, {
+    'Content-Type': 'text/plain; charset=utf-8'
+  });
+  res.end('Estamos cerca de tí....');
+
+} else if (pathname === '/que') {
+  res.writeHead(200, {
+    'Content-Type': 'text/plain; charset=utf-8'
+  });
+  res.end('Hacemos cosas....');
+
+} else if (pathname === '/bug') {
+  
+  // Termina el proceso de Node
+  process.exit(1); 
+
+
+} else if (pathname === '/contacto') {
+  res.writeHead(200, {
+    'Content-Type': 'text/plain; charset=utf-8'
+  });
+  res.end('Contactanos!....');
+
+  
+} else {
+    res.writeHead(404, {
+    'Content-Type': 'text/plain'
+  });
+  res.end('L-E-G-E-N-D-A-R-I-O... 404!');
+}
+
+}).listen(process.env.PORT, process.env.IP);
+
+console.log(`Servidor funcionando en http://${process.env.IP}:${process.env.PORT}/`);
 ```
 
 **2 -** Realiza un script ejecutable que nos muestre la información de los terremotos acontecidos en la última hora.
