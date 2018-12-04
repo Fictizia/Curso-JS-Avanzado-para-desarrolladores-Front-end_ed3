@@ -760,6 +760,8 @@ suite.add('RegExp#test', () => {
 
 ### Ejercicios
 
+**[Soluciones](https://github.com/josex2r/mocha-example)**
+
 **1 -** Inicializa un repositorio utilizando **npm** y **git**.
 Deberás preparar un entorno básico de testing siguiendo los siguientes patrones:
 - Crea un directorio `lib/` donde irá el código de tu proyecto.
