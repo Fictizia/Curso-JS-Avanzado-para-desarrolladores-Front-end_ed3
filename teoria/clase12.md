@@ -184,9 +184,9 @@ Objetivos:
 - Comprobar si ese mismo usuario ya esta registrado (Email como ID), para evitar multiples inscripciones.
 - Incluiremos en la página los usuarios que se van sumando.
 
-```javascript
-    // Tu solución
-```
+**Solución:**
+- [Firebase 2.x](http://codepen.io/ulisesgascon/pen/19f8b66b32e9ebc0fea3d8dd5c03e0f4)
+- [Firebase 3.x](http://codepen.io/ulisesgascon/pen/4ba77abe2917a57b5780ec3531d79341)
 
 **2 -** Partiendo del ejercicio anterior... realizaremos un nuevo formulario que nos permita registrarnos usando nuestra cuenta de Github.
 
