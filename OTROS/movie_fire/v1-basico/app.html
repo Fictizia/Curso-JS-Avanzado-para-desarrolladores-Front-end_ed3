@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Movie Fire</title>
+    <link rel="stylesheet" type="text/css" href="app.css">
+</head>
+
+<body>
+    <h1>Movie Fire</h1>
+    <h3>Save all your Favorite Movies here</h3>
+    <hr>
+    <input type="text" id="movieName" placeholder="Enter your Favorite Movie Name">
+    <h4>My Favorite Movies</h4>
+    <ol id="favMovies">
+        Loading.. Please wait..
+    </ol>
+    <div id="movieDetails"></div>
+    <script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyAZz_KWFdeCLA4I9sZfV1efbm3wIBGTpxk",
+        authDomain: "experimentos-clase.firebaseapp.com",
+        databaseURL: "https://experimentos-clase.firebaseio.com",
+        projectId: "experimentos-clase",
+        storageBucket: "experimentos-clase.appspot.com",
+        messagingSenderId: "1059222055620"
+      };
+      firebase.initializeApp(config);
+    </script>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>

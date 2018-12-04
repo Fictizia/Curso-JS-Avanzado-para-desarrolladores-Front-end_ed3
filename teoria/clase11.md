@@ -610,6 +610,6 @@ ref.equalTo();
 - Las peliculas pueden ser eliminadas.
 - Las peliculas pueden ser editadas desde el html. 
 - *Opcional: puedes partir de este [código arvindr21/movieFire(legacy)](https://github.com/arvindr21/movieFire)*
-```javascript
-//Tu solución
-```
+
+[Solución Legacy](../OTROS/movie_fire/v1-basico-legacy)
+[Solución](../OTROS/movie_fire/v1-basico)
